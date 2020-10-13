@@ -1,0 +1,21 @@
+{
+  "options": {
+    "pages": [ // Page setup
+      {
+        "sections": {
+          "content": {
+            "text": "", // Default text or table object. There will be always showed.
+            "font": "body", // Defined font template name, or font object
+            "format": {
+              "align": "justify", // left|right|justify
+              "left": 70,
+              "top": 670,
+              "width": 481,
+              "height": 70
+            }
+          }
+        }
+      }
+    ]
+  }
+}

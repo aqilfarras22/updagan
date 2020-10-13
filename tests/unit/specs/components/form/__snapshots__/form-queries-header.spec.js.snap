@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/form/form-queries-header.vue has the expected html structure 1`] = `
+<header
+  fakeprop=""
+>
+  <b-row-stub
+    class="py-2 align-middle"
+    tag="div"
+  >
+    <b-col-stub
+      class="text"
+      tag="div"
+    >
+      title
+    </b-col-stub>
+     
+    <b-col-stub
+      class="text text-right"
+      col="true"
+      lg="3"
+      tag="div"
+    >
+      <a
+        class="backButton"
+        href="#"
+      >
+        backTitle
+      </a>
+    </b-col-stub>
+  </b-row-stub>
+</header>
+`;

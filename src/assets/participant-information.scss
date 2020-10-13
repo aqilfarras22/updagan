@@ -1,0 +1,283 @@
+.APPROVED,
+.VERIFIED {
+  color: #48bf7a !important;
+}
+.NOT_VERIFIED,
+.NOT_APPROVED {
+  color: #f16559 !important;
+}
+.form-action-button {
+  width: 100%;
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.inline-ele {
+  width: 20px;
+  float: left;
+}
+.truncate {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.pi-info-bars {
+  .heading {
+    color: #4a4a4a;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+  }
+  .non-pii-info-bar {
+    background-color: #f9f9fb;
+    padding: 8px 0px;
+    box-shadow: 0 3px 2px 0 rgba(0, 0, 0, 0.06);
+    &.resize-text {
+      font-size: 10px;
+    }
+    .custom-max-width {
+      max-width: 9%;
+      .img-wrapper {
+        width: 10px;
+        height: 10px;
+        display: inline-block;
+        margin-right: 5px;
+        img {
+          width: 100%;
+        }
+      }
+    }
+    .custom-max-width-status {
+      max-width: 7%;
+    }
+    .custom-max-width-id {
+      max-width: 21%;
+    }
+    .custom-max-width-col-2-id {
+      max-width: 20%;
+    }
+    .custom-max-width-pid {
+      max-width: 14%;
+    }
+    .custom-max-width-pid-col-3 {
+      max-width: 16%;
+    }
+    .custom-max-width-country {
+      max-width: 11%
+    }
+    .custom-max-width-site {
+      max-width: 10%;
+    }
+    .custom-max-width-language {
+      max-width: 10%;
+    }
+  }
+  .pi-info-bar {
+     box-shadow: 0 3px 2px 0 rgba(0, 0, 0, 0.06);
+     padding: 15px 0px;
+     &.resize-text {
+       font-size: 10px;
+     }
+     .custom-max-width {
+        &.email {
+          max-width: 12%;
+        }
+        &.gender {
+          max-width: 13.66666%;
+        }
+     }
+  }
+}
+.max-width-ln {
+  max-width: 12%;
+}
+.max-width-dob {
+  max-width: 15%;
+}
+.buttons-wrap {
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    button {
+      border-radius: 5px;
+      border: solid 0.5px #e4e8eb;
+      font-weight: bold;
+      width: 170px;
+      padding: 8px;
+      letter-spacing: 0.5px;
+      font-size: 12px;
+    }
+    button:nth-child(n) {
+      margin-right: 10px;
+    }
+    button:last-child {
+      margin-right: 0px;
+    }
+    .btn-default {
+      background-color: #ffffff;
+      color: #4c8ce4;
+      transition-duration: 0.6s;
+      &.active {
+        background-color:#4c8ce4;
+        color: #ffffff;
+        transition-duration: 0.6s;
+      }
+    }
+    .btn-default:focus {
+      box-shadow: none;
+    }
+    .btn-primary {
+      background-color: #4c8ce4;
+      color: #ffffff
+    }
+  }
+  .modal-dialog {
+    width: 700px;
+  }
+#confirmSendModal {
+  .modal-heading {
+    font-size: 14px;
+  }
+  button {
+    width: 100%
+  }
+}
+#signatureModal {
+  font-size: 14px;
+  button {
+    width: 100%;
+  }
+}
+.edit-id {
+  font-size: 12px;
+  line-height: 1.6;
+  color: #4c8ce4;
+  padding-left: 10px;
+  text-transform: none;
+  cursor: pointer;
+  font-weight: normal;
+}
+.cancel-btn {
+  color: #fff !important;
+  background-color: #4a4a4a !important;
+  border-color: #4a4a4a !important;
+  width: 100px !important;
+}
+
+.save-btn {
+  color: #fff !important;
+  background-color: #1e8fe1 !important;
+  border-color: #1e8fe1 !important;
+  width: 100px !important;
+}
+@media (min-width: 992px) {
+  .modal-dialog {
+    min-width: 400px !important;
+  }
+  #requestSignModal {
+    .modal-dialog {
+      min-width: 470px !important;
+      min-height: 200px !important;
+    }
+  }
+}
+@media (min-width: 576px) {
+  .modal-dialog {
+    min-width: 400px !important;
+  }
+  #requestSignModal {
+  .modal-dialog {
+      min-width: 470px !important;
+      min-height: 200px !important;
+    }
+  }
+}
+@media (min-width: 1024px) {
+  .modal-dialog {
+    min-width: 400px !important;
+  }
+  #requestSignModal {
+    .modal-dialog {
+      min-width: 465px !important;
+      min-height: 200px !important;
+    }
+  }
+}
+/// new redesign classes
+.participant-detail-section {
+  background-color: #F7F7F7;
+  .action-btns {
+    transition-duration: 0.6s;
+    padding: 15px;
+    text-align: center;
+    .btn {
+      margin-right: 15px;
+      background-color: #ffffff;
+      font-size: 14px;
+      color: #4c8ce4;
+      border: 0.5px solid #e4e8eb;
+      &.btnActive {
+        background: #4c8ce4;
+        color: #fff;
+      }
+    }
+    .btn:focus {
+      outline: none;
+      box-shadow: none;
+    }
+    span {
+      display: inline-block;
+      width: 13px;
+      height: 17px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      vertical-align: middle;
+      margin-right: 3px;
+      &.agreement-on {
+        background-image: url(/static/img/agreement_on.png);
+      }
+      &.agreement-off {
+        background-image: url(/static/img/agreement_off.png);
+      }
+      &.forms {
+        background-image: url(/static/img/unscheduled_form_off.png);
+      }
+      &.telehealth {
+        background-image: url(/static/img/telehealth_call_off.png);
+      }
+      &.sign {
+        background-image: url(/static/img/sign_2.png);
+        padding: 0px 10px;
+      }
+      &.send-message-off {
+        background-image: url(/static/img/messages/send_message_off.svg);
+        padding: 0px 10px;
+      }
+      &.send-message-on {
+        background-image: url(/static/img/messages/send_message_on.svg);
+        padding: 0px 10px;
+      }
+    }
+    .vertical-seperator {
+      display: inline-block;
+      height: 38px;
+      border: 0.5px solid #e4e8eb;
+      margin-right: 15px;
+      position: relative;
+      top: 16px;
+    }
+  }
+  .btn-padding {
+    padding: 0.6rem 0.75rem 0.5rem 0.75rem;
+  }
+}
+.telehealth-call {
+  .participant-detail-section .action-btns .btn {
+  font-size: 12px;
+  }
+}

@@ -1,0 +1,233 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pages/study-participants-data-dashboard.vue should has the expected html structure 1`] = `
+<div
+  class="component"
+>
+  <b-container-stub
+    class="pb-20 pt-30"
+    fluid="true"
+    tag="div"
+  >
+    <b-row-stub
+      tag="div"
+    >
+      <b-col-stub
+        cols="6"
+        md="4"
+        tag="div"
+      >
+        <b
+          data="[object Object],[object Object]"
+          info="The number of queries created by research team"
+          title="Queries"
+          titlecolor="#2E62A1"
+        >
+          DonutChartWidgetCmp
+        </b>
+      </b-col-stub>
+       
+      <b-col-stub
+        cols="6"
+        md="4"
+        tag="div"
+      >
+        <b
+          data="[object Object],[object Object]"
+          info="The number of forms verified by the research team"
+          title="Verification"
+          titlecolor="#DD5B2C"
+        >
+          DonutChartWidgetCmp
+        </b>
+      </b-col-stub>
+       
+      <b-col-stub
+        cols="6"
+        md="4"
+        tag="div"
+      >
+        <b
+          data="[object Object],[object Object]"
+          info="The number of forms approved by the Principal Investigator(s)"
+          title="Approval"
+          titlecolor="#A73B8F"
+        >
+          DonutChartWidgetCmp
+        </b>
+      </b-col-stub>
+    </b-row-stub>
+  </b-container-stub>
+   
+  <br />
+   
+  <b
+    fields="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
+    filterlabelmessage=""
+    filteroptions="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
+    items="function () { [native code] }"
+    perpage="5"
+    printtotalformatter="function () { [native code] }"
+    showempty=""
+    showfilter=""
+    showpagination=""
+    showtotal=""
+    tablewrappercomponent="b-card"
+    totalitems="11"
+  >
+    TableComponentCmp
+  </b>
+</div>
+`;
+
+exports[`pages/study-participants-data-dashboard.vue should have all required initial data 1`] = `
+Array [
+  Object {
+    "text": "All",
+    "value": "",
+  },
+  Object {
+    "text": "Forms w/ open queries",
+    "value": "open",
+  },
+  Object {
+    "text": "Forms w/ closed queries",
+    "value": "closed",
+  },
+  Object {
+    "text": "Unverified",
+    "value": "NOT_VERIFIED",
+  },
+  Object {
+    "text": "Verified",
+    "value": "VERIFIED",
+  },
+  Object {
+    "text": "Unapproved",
+    "value": "NOT_APPROVED",
+  },
+  Object {
+    "text": "Approved",
+    "value": "APPROVED",
+  },
+]
+`;
+
+exports[`pages/study-participants-data-dashboard.vue should return computed property for PI role: tableFields 1`] = `
+Array [
+  Object {
+    "key": "participantId",
+    "label": "Participant Id",
+  },
+  Object {
+    "key": "email",
+    "label": "Email Address",
+  },
+  Object {
+    "key": "formName",
+    "label": "Form Name",
+  },
+  Object {
+    "key": "lastCreatedQuery",
+    "label": "Last Query Created",
+    "sortable": true,
+  },
+  Object {
+    "key": "numberOfOpenQueries",
+    "label": "# Of Open Queries",
+    "sortable": true,
+  },
+  Object {
+    "key": "approvalStatus",
+    "label": "Approval",
+    "sortable": true,
+  },
+  Object {
+    "key": "verificationStatus",
+    "label": "Verification",
+    "sortable": true,
+  },
+]
+`;
+
+exports[`pages/study-participants-data-dashboard.vue should return computed property for not PI role: tableFields 1`] = `
+Array [
+  Object {
+    "key": "participantId",
+    "label": "Participant Id",
+  },
+  Object {
+    "key": "email",
+    "label": "Email Address",
+  },
+  Object {
+    "key": "formName",
+    "label": "Form Name",
+  },
+  Object {
+    "key": "lastCreatedQuery",
+    "label": "Last Query Created",
+    "sortable": true,
+  },
+  Object {
+    "key": "numberOfOpenQueries",
+    "label": "# Of Open Queries",
+    "sortable": true,
+  },
+  Object {
+    "key": "approvalStatus",
+    "label": "Approval",
+    "sortable": true,
+  },
+  Object {
+    "key": "verificationStatus",
+    "label": "Verification",
+    "sortable": true,
+  },
+]
+`;
+
+exports[`pages/study-participants-data-dashboard.vue should return computed property: approvalData 1`] = `
+Array [
+  Object {
+    "color": "#A73B8F",
+    "label": "Unapproved",
+    "value": 1,
+  },
+  Object {
+    "color": "#E9668C",
+    "label": "Approved",
+    "value": 2,
+  },
+]
+`;
+
+exports[`pages/study-participants-data-dashboard.vue should return computed property: queriesData 1`] = `
+Array [
+  Object {
+    "color": "#2E62A1",
+    "label": "Open",
+    "value": 1,
+  },
+  Object {
+    "color": "#5BB7CC",
+    "label": "Closed",
+    "value": 2,
+  },
+]
+`;
+
+exports[`pages/study-participants-data-dashboard.vue should return computed property: verificationData 1`] = `
+Array [
+  Object {
+    "color": "#DD5B2C",
+    "label": "Unverified",
+    "value": 1,
+  },
+  Object {
+    "color": "#F8CD61",
+    "label": "Verified",
+    "value": 2,
+  },
+]
+`;

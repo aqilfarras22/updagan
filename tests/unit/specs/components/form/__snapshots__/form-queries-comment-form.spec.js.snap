@@ -1,0 +1,211 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/form/form-queries/form-queries-comment-form.vue has the expected html structure 1`] = `
+<form
+  class="component"
+>
+  <div
+    class="form-row"
+  >
+    <fieldset
+      class="group b-form-group form-group"
+      id="__BVID__39"
+      role="group"
+    >
+      <!---->
+      <div
+        class=""
+        role="group"
+      >
+        <textarea
+          aria-invalid="false"
+          aria-required="true"
+          class="form-control"
+          id="comment"
+          name="comment"
+          placeholder="Enter your comment"
+          rows="6"
+          wrap="soft"
+        />
+         
+        <span
+          class="note"
+        >
+          Max allowed limit 500 chars
+        </span>
+        <!---->
+        <!---->
+        <!---->
+      </div>
+    </fieldset>
+     
+    <div
+      class="form-row"
+    >
+      <div
+        class="col"
+      >
+        <b
+          type="submit"
+          variant="primary"
+        >
+          ButtonCmp
+        </b>
+         
+        <b
+          class="ml-2 cancelBtn"
+          variant="outline-primary"
+        >
+          ButtonCmp
+        </b>
+      </div>
+    </div>
+  </div>
+</form>
+`;
+
+exports[`components/form/form-queries/form-queries-comment-form.vue has the expected html structure 2`] = `
+<form
+  class="component"
+>
+  <div
+    class="form-row"
+  >
+    <fieldset
+      aria-describedby="__BVID__39__BV_feedback_invalid_"
+      aria-invalid="true"
+      class="group b-form-group form-group is-invalid"
+      id="__BVID__39"
+      role="group"
+    >
+      <!---->
+      <div
+        class=""
+        role="group"
+      >
+        <textarea
+          aria-invalid="true"
+          class="form-control is-invalid"
+          id="comment"
+          name="comment"
+          placeholder="Enter your comment"
+          rows="6"
+          wrap="soft"
+        />
+         
+        <span
+          class="note"
+        >
+          Max allowed limit 500 chars
+        </span>
+        <div
+          aria-atomic="true"
+          aria-live="assertive"
+          class="invalid-feedback d-block"
+          id="__BVID__39__BV_feedback_invalid_"
+          role="alert"
+        >
+          The comment field is required.
+        </div>
+        <!---->
+        <!---->
+      </div>
+    </fieldset>
+     
+    <div
+      class="form-row"
+    >
+      <div
+        class="col"
+      >
+        <b
+          type="submit"
+          variant="primary"
+        >
+          ButtonCmp
+        </b>
+         
+        <b
+          class="ml-2 cancelBtn"
+          variant="outline-primary"
+        >
+          ButtonCmp
+        </b>
+      </div>
+    </div>
+  </div>
+</form>
+`;
+
+exports[`components/form/form-queries/form-queries-comment-form.vue has the expected html structure 3`] = `
+<form
+  class="component"
+>
+  <div
+    class="form-row"
+  >
+    <fieldset
+      aria-describedby="__BVID__39__BV_feedback_invalid_"
+      aria-invalid="true"
+      class="group b-form-group form-group is-invalid"
+      id="__BVID__39"
+      role="group"
+    >
+      <!---->
+      <div
+        class=""
+        role="group"
+      >
+        <textarea
+          aria-invalid="true"
+          class="form-control is-invalid"
+          id="comment"
+          name="comment"
+          placeholder="Enter your comment"
+          rows="6"
+          wrap="soft"
+        />
+         
+        <span
+          class="note"
+        >
+          Max allowed limit 500 chars
+        </span>
+        <div
+          aria-atomic="true"
+          aria-live="assertive"
+          class="invalid-feedback d-block"
+          id="__BVID__39__BV_feedback_invalid_"
+          role="alert"
+        >
+          The comment field is required.
+        </div>
+        <!---->
+        <!---->
+      </div>
+    </fieldset>
+     
+    <div
+      class="form-row"
+    >
+      <div
+        class="col"
+      >
+        <b
+          type="submit"
+          variant="primary"
+        >
+          ButtonCmp
+        </b>
+         
+        <b
+          class="ml-2 cancelBtn"
+          variant="outline-primary"
+        >
+          ButtonCmp
+        </b>
+      </div>
+    </div>
+  </div>
+</form>
+`;

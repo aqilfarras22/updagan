@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="120" height="50" viewBox="0 0 120 50">
+    <defs>
+        <circle id="a" cx="25" cy="25" r="25"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <circle cx="95" cy="25" r="25" fill="#D3DFE4"/>
+        <text fill="#D3DFE4" font-family="FontAwesome" font-size="14">
+            <tspan x="59" y="29"></tspan>
+        </text>
+        <text fill="#D3DFE4" font-family="FontAwesome" font-size="14">
+            <tspan x="53" y="29"></tspan>
+        </text>
+        <use fill="#F1C40F" xlink:href="#a"/>
+        <circle cx="25" cy="25" r="24" stroke="#C2A017" stroke-width="2"/>
+    </g>
+</svg>

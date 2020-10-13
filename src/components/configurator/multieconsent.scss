@@ -1,0 +1,285 @@
+button{
+    cursor: pointer;
+}
+.multiconsent-box1{
+  border-radius: 4px;
+  border: solid 1px #e4e8eb;
+  background-color: #ffffff;
+  margin-top:40px;
+  margin-left:30px;
+  margin-right:30px;
+  padding:20px;
+}
+
+.multiconsent-box1-heading1{
+  font-family: Lato-Regular;
+  font-size: 34px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.21;
+  letter-spacing: normal;
+  color: #2d3752;
+}
+
+.multiconsent-box1-content1{
+    font-family: Lato-Regular;
+    font-size: 17px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.29;
+    letter-spacing: normal;
+    color: #4a4a4a;
+}
+
+.multiconsent-box1-bottom{
+    margin-top:20px;
+
+    .consent-name{
+        font-family: Lato-Regular;
+        font-size: 17px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.29;
+        letter-spacing: normal;
+        color: #4a4a4a;
+    }
+
+    .edit-icon{
+        margin-left:30px;
+        cursor: pointer;
+    }
+}
+
+.multiconsent-box1-btn1{
+    padding-top:20px;
+}
+
+.multiconsent-box1-divider, .multiconsent-box2-divider, .multiconsent-box3-divider{
+    width: 1040px;
+    height: 1px;
+    background-color: #e4e8eb;
+    margin-top:30px;
+}
+
+.multiconsent-box3-divider{
+    margin-top:10px;
+}
+
+.multiconsent-box1-content2{
+    font-family: Lato-Regular;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    color: #9b9b9b; 
+    margin-top:20px;
+}
+
+.multiconsent-box2{
+  border-radius: 4px;
+  border: solid 1px #e4e8eb;
+  background-color: #ffffff;
+  margin-top:20px;
+  margin-left:30px;
+  margin-right:30px;
+  padding:20px;
+}
+
+.multiconsent-box2-heading1{
+  font-family: Lato-Regular;
+  font-size: 34px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.21;
+  letter-spacing: normal;
+  color: #2d3752;
+}
+
+.multiconsent-box2-content1{
+    font-family: Lato-Regular;
+    font-size: 17px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.29;
+    letter-spacing: normal;
+    color: #4a4a4a;
+}
+
+.multiconsent-box2-btn1{
+    padding-top:20px;
+}
+
+.multiconsent-box2-divider{
+    width: 1040px;
+    height: 1px;
+    background-color: #e4e8eb;
+    margin-top:30px;
+}
+
+.multiconsent-box2-content2{
+    font-family: Lato-Regular;
+    font-size: 17px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.29;
+    letter-spacing: normal;
+    color: #4a4a4a; 
+}
+
+.multiconsent-box2-bottom{
+    margin-top:20px;
+}
+
+.left-block{
+    float:left;
+}
+
+.right-block{
+    float:right;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.white-btn{
+    color: #1e8fe1;
+    border-radius: 4px;
+    border: solid 1px #1e8fe1;
+    background-color: #ffffff;
+}
+
+.colored-btn{  
+  border-radius: 4px;
+  border: solid 2px #ffffff;
+  background-color:#1e8fe1;
+  color:#fff;
+}
+
+.add-consent-btn{
+    width: 190px;
+    height: 30px;
+    font-family: Lato-Regular;
+    font-size: 13px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #1e8fe1;
+}
+
+.add-cohort-btn{
+    width: 150px;
+    height: 30px;
+    font-family: Lato-Regular;
+    font-size: 13px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #1e8fe1;
+}
+
+.select-consent-btn{
+    width: 120px;
+    height: 30px;
+    font-family: Lato-Regular;
+    font-size: 13px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+
+.multiconsent-box3{
+  border-radius: 4px;
+  border: solid 1px #e4e8eb;
+  background-color: #ffffff;
+  margin-top:40px;
+  margin-left:30px;
+  margin-right:30px;
+  padding:20px;
+}
+
+.multiconsent-box3-heading1{
+    font-family: Lato-Regular;
+    font-size: 34px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    color: #2d3752;
+}
+
+.multiconsent-box3-bottom1{
+    margin-top:20px;
+}
+
+.multiconsent-box3-bottom2{
+    margin-top:24px;
+}
+
+.multiconsent-box3-bottom1-content1{
+    font-family: Lato-Regular;
+    font-size: 17px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.29;
+    letter-spacing: normal;
+    color: #4a4a4a;
+}
+
+.add-privacy-policy-btn{
+    width: 140px;
+    height: 30px;
+    font-family: Lato-Regular;
+    font-size: 13px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #1e8fe1;
+}
+
+.multiconsent-box3-bottom2-content1{
+    font-family: Lato-Regular;
+    font-size: 17px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.29;
+    letter-spacing: normal;
+    color: #4a4a4a;  
+}
+
+.link{
+    font-family: Lato-Regular;
+    font-size: 13px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #1e8fe1;
+    cursor: pointer;
+}

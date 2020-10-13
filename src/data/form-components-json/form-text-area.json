@@ -1,0 +1,27 @@
+{
+  "name" : "formTextArea",
+  "body": "",
+  "fieldName": "",
+  "fieldType" : "QUESTION",
+  "required": false,
+  "placeholder": "Enter your answer here",
+  "noOfLines": 3,
+  "mode" : "new",
+  "constraint": {
+    "lettersAllowed": true,
+    "numbersAllowed": true,
+    "specialCharactersAllowed": true,
+    "minCharsFlag": false,
+    "minChars": 0,
+    "maxCharsFlag": false,
+    "maxChars": 250,
+    "minLimitFlag": false,
+    "minLimit": 0,
+    "maxLimitFlag": false,
+    "maxLimit": 10,
+    "decimalLimitFlag": false,
+    "decimalLimit": 4
+  },
+  "notifications": [],
+  "fieldNameErrorMsg": ""
+}

@@ -1,0 +1,306 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/participants/participant-info.vue has the expected html structure 1`] = `
+<div>
+  <dl>
+    <dt>
+      THREAD ID
+    </dt>
+     
+    <dd>
+      123
+    </dd>
+     
+    <!---->
+  </dl>
+   
+  <dl>
+    <dt>
+      Participant ID
+      <span
+        class="edit-id"
+      >
+        Edit
+      </span>
+    </dt>
+     
+    <dd>
+      
+    </dd>
+  </dl>
+   
+  <!---->
+   
+  <!---->
+   
+  <!---->
+   
+  <!---->
+   
+  <!---->
+   
+  <!---->
+    
+  <!---->
+   
+  <dl>
+    <!---->
+  </dl>
+   
+  <dl>
+    <!---->
+  </dl>
+   
+  <div>
+    <div
+      id="disqualifyModal___BV_modal_outer_"
+    >
+      <div
+        aria-hidden="true"
+        class="modal fade"
+        id="disqualifyModal"
+        role="dialog"
+        style="display: none;"
+      >
+        <div
+          class="modal-dialog modal-lg"
+        >
+          <div
+            aria-describedby="disqualifyModal___BV_modal_body_"
+            class="modal-content"
+            role="document"
+            tabindex="-1"
+          >
+            <!---->
+            <div
+              class="modal-body"
+              id="disqualifyModal___BV_modal_body_"
+            >
+              <b>
+                <p
+                  class="fs-16 pl-10 pr-10"
+                >
+                  Disqualify participant:
+                  <br />
+                  
+      123?
+                </p>
+              </b>
+               
+              <p
+                class="pl-10 pr-10"
+              >
+                For what reason are you disqualifying this participant from this study?
+              </p>
+               
+              <div
+                class="pl-10 pr-10"
+              >
+                <div>
+                  <div
+                    class="custom-control custom-checkbox custom-control-inline"
+                  >
+                    <input
+                      autocomplete="off"
+                      class="custom-control-input"
+                      id="__BVID__35"
+                      true-value="true"
+                      type="checkbox"
+                      value="true"
+                    />
+                    <label
+                      class="custom-control-label"
+                      for="__BVID__35"
+                    >
+                      <span
+                        class="pl-20"
+                      >
+                        Participant is not adhering to the protocol-required remote data collection
+                      </span>
+                    </label>
+                  </div>
+                  <br />
+                </div>
+                <div>
+                  <div
+                    class="custom-control custom-checkbox custom-control-inline"
+                  >
+                    <input
+                      autocomplete="off"
+                      class="custom-control-input"
+                      id="__BVID__36"
+                      true-value="true"
+                      type="checkbox"
+                      value="true"
+                    />
+                    <label
+                      class="custom-control-label"
+                      for="__BVID__36"
+                    >
+                      <span
+                        class="pl-20"
+                      >
+                        Participant is not attending the protocol-required teleHealth visits
+                      </span>
+                    </label>
+                  </div>
+                  <br />
+                </div>
+                <div>
+                  <div
+                    class="custom-control custom-checkbox custom-control-inline"
+                  >
+                    <input
+                      autocomplete="off"
+                      class="custom-control-input"
+                      id="__BVID__37"
+                      true-value="true"
+                      type="checkbox"
+                      value="true"
+                    />
+                    <label
+                      class="custom-control-label"
+                      for="__BVID__37"
+                    >
+                      <span
+                        class="pl-20"
+                      >
+                        Participant is moving and can no longer participate in the study
+                      </span>
+                    </label>
+                  </div>
+                  <br />
+                </div>
+                <div>
+                  <div
+                    class="custom-control custom-checkbox custom-control-inline"
+                  >
+                    <input
+                      autocomplete="off"
+                      class="custom-control-input"
+                      id="__BVID__38"
+                      true-value="true"
+                      type="checkbox"
+                      value="true"
+                    />
+                    <label
+                      class="custom-control-label"
+                      for="__BVID__38"
+                    >
+                      <span
+                        class="pl-20"
+                      >
+                        Other
+                      </span>
+                    </label>
+                  </div>
+                  <br />
+                </div>
+                 
+                <div
+                  class="pl-40 pr-40 pt-10"
+                >
+                  <!---->
+                </div>
+              </div>
+               
+              <div
+                class="pb-10 col-10 offset-1"
+              >
+                <button
+                  class="btn mt-20 br-30 btn-primary btn-md btn-block"
+                  type="button"
+                >
+                  Submit
+                </button>
+              </div>
+            </div>
+            <!---->
+          </div>
+        </div>
+      </div>
+      <!---->
+    </div>
+  </div>
+   
+  <div>
+    <div
+      id="edit-participant-modal___BV_modal_outer_"
+    >
+      <div
+        aria-hidden="true"
+        class="modal fade"
+        id="edit-participant-modal"
+        role="dialog"
+        style="display: none;"
+      >
+        <div
+          class="modal-dialog modal-lg"
+        >
+          <div
+            aria-describedby="edit-participant-modal___BV_modal_body_"
+            class="modal-content"
+            role="document"
+            tabindex="-1"
+          >
+            <!---->
+            <div
+              class="modal-body"
+              id="edit-participant-modal___BV_modal_body_"
+            >
+              <div
+                class="width-400"
+              >
+                <div>
+                  <b>
+                    <p
+                      class="fs-16 pl-10 pr-10"
+                    >
+                      Edit participant ID
+                      <br />
+                    </p>
+                  </b>
+                </div>
+                 
+                <div
+                  class="pl-10 pr-10"
+                >
+                  <div
+                    class="p-0 col-8"
+                  >
+                    <input
+                      class="form-control"
+                      placeholder="Enter new participant ID"
+                      type="text"
+                    />
+                  </div>
+                </div>
+                 
+                <div
+                  class="pb-10 pt-40 text-center col-12"
+                >
+                  <button
+                    class="btn mt-20 mr-10 br-3 cancel-btn btn-primary btn-md"
+                    type="button"
+                  >
+                    Cancel
+                  </button>
+                   
+                  <button
+                    class="btn mt-20 br-3 save-btn btn-primary btn-md"
+                    type="button"
+                  >
+                    Save
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!---->
+          </div>
+        </div>
+      </div>
+      <!---->
+    </div>
+  </div>
+</div>
+`;

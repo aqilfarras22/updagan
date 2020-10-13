@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/form/form-queries/form-queries-query-details.vue has the expected html structure 1`] = `
+<div>
+  <b
+    class="header"
+    title="Query ID: QWERT"
+  >
+    FormQueriesHeader
+  </b>
+   
+  <div
+    class="margin-from-top"
+  >
+    <b-row-stub
+      tag="div"
+    >
+      <b-col-stub
+        class="pr-1"
+        tag="div"
+      >
+        <b
+          variant="outline-primary"
+        >
+          ButtonCmp
+        </b>
+         
+        <b
+          variant="outline-primary"
+        >
+          ButtonCmp
+        </b>
+      </b-col-stub>
+    </b-row-stub>
+  </div>
+    
+  <b
+    nobtntxt="No, do not close query"
+    text="Are you sure you want to close this query?"
+    yesbtntxt="Yes, close query"
+  >
+    ConfirmationModal
+  </b>
+   
+  <b
+    nobtntxt="No, do not reopen query"
+    text="Are you sure you want to reopen this query?"
+    yesbtntxt="Yes, reopen query"
+  >
+    ConfirmationModal
+  </b>
+</div>
+`;
+
+exports[`components/form/form-queries/form-queries-query-details.vue has the expected html structure 2`] = `
+<div>
+  <b
+    class="header"
+    title="Query ID: QWERT"
+  >
+    FormQueriesHeader
+  </b>
+   
+  <div
+    class="margin-from-top"
+  >
+    <b>
+      FormQueriesCommentForm
+    </b>
+  </div>
+    
+  <b
+    nobtntxt="No, do not close query"
+    text="Are you sure you want to close this query?"
+    yesbtntxt="Yes, close query"
+  >
+    ConfirmationModal
+  </b>
+   
+  <b
+    nobtntxt="No, do not reopen query"
+    text="Are you sure you want to reopen this query?"
+    yesbtntxt="Yes, reopen query"
+  >
+    ConfirmationModal
+  </b>
+</div>
+`;

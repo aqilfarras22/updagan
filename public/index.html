@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>THREAD</title>
+    <!-- <script src="/static/pace.min.js"></script> -->
+    <script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link
+      rel="icon"
+      href="static/img/favicon.png"
+      type="image/gif"
+      sizes="16x16"
+    />
+    
+    
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
+    
+  </head>
+
+  <body>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+    <script>
+      let url = window.location.href;
+      if (!url.includes('/verify-participant-v2') && !url.includes('/participant-reset-password/')) {
+        let zdScript  = document.createElement('script')
+        zdScript .setAttribute('id', 'ze-snippet')
+        zdScript .setAttribute('src', 'https://static.zdassets.com/ekr/snippet.js?key=c10f010a-1679-48d4-819d-157fb5c55ad3')
+        document.body.appendChild(zdScript )
+      }
+    </script>
+  </body>
+</html>

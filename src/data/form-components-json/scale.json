@@ -1,0 +1,26 @@
+{
+    "name" : "formScale",
+    "body": "",
+    "fieldName": "",
+    "fieldType" : "QUESTION",
+    "required": false,
+    "horizontalScale": true,
+    "otherOptionField": false,
+    "naField": false,
+    "mode" : "new",
+    "options": [{
+      "index": 0,
+      "type": "OPTION",
+      "label": "",
+      "weight": null
+    },
+    {
+      "type": "OPTION",
+      "index": 1,
+      "label": "",
+      "weight": null
+    }
+  ],
+  "notifications": [],
+  "fieldNameErrorMsg": ""
+}

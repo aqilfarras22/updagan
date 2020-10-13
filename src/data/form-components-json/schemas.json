@@ -1,0 +1,346 @@
+[{
+  "fieldType": "DropDown",
+  "schemas": {
+    "otherOptionSchema": {
+      "index": null,
+      "label": "Other",
+      "type": "Other",
+      "commentField": false,
+      "errorFlag": false
+    },
+    "commentFieldSchema": {
+      "errorMessage": "Please enter a comment.",
+      "commentMessage": "",
+      "constraint": {
+        "lettersAllowed": true,
+        "numbersAllowed": true,
+        "specialCharactersAllowed": true,
+        "minCharsFlag": false,
+        "minChars": 0,
+        "maxCharsFlag": false,
+        "maxChars": 250,
+        "minLimitFlag": false,
+        "minLimit": 0,
+        "maxLimitFlag": false,
+        "maxLimit": 10,
+        "decimalLimitFlag": false,
+        "decimalLimit": 4
+      }
+    },
+    "choiceSchema": {
+      "index": null,
+      "label": "",
+      "type": "option",
+      "errorFlag": false
+    },
+    "notificationSchema": {
+      "mode": false,
+      "selectedIndex": null,
+      "selectedOption": null,
+      "contacts": []
+    }
+  }
+}, {
+  "fieldType": "CheckBox",
+  "schemas": {
+    "otherOptionSchema": {
+      "index": null,
+      "value": "Other",
+      "type": "Other",
+      "commentField": false,
+      "errorFlag": false
+    },
+    "commentFieldSchema": {
+      "errorMessage": "Please enter a comment.",
+      "commentMessage": "",
+      "constraint": {
+        "lettersAllowed": true,
+        "numbersAllowed": true,
+        "specialCharactersAllowed": true,
+        "minCharsFlag": false,
+        "minChars": 0,
+        "maxCharsFlag": false,
+        "maxChars": 250,
+        "minLimitFlag": false,
+        "minLimit": 0,
+        "maxLimitFlag": false,
+        "maxLimit": 10,
+        "decimalLimitFlag": false,
+        "decimalLimit": 4
+      }
+    },
+    "choiceSchema": {
+      "index": null,
+      "value": "",
+      "type": "option",
+      "errorFlag": false
+    },
+    "notificationSchema": {
+      "mode": false,
+      "selectedIndex": null,
+      "selectedOption": null,
+      "contacts": []
+    }
+  }
+}, {
+  "fieldType": "SingleChoice",
+  "schemas": {
+    "otherOptionSchema": {
+      "index": null,
+      "value": "Other",
+      "type": "Other",
+      "commentField": false,
+      "errorFlag": false
+    },
+    "commentFieldSchema": {
+      "errorMessage": "Please enter a comment.",
+      "commentMessage": "",
+      "constraint": {
+        "lettersAllowed": true,
+        "numbersAllowed": true,
+        "specialCharactersAllowed": true,
+        "minCharsFlag": false,
+        "minChars": 0,
+        "maxCharsFlag": false,
+        "maxChars": 250,
+        "minLimitFlag": false,
+        "minLimit": 0,
+        "maxLimitFlag": false,
+        "maxLimit": 10,
+        "decimalLimitFlag": false,
+        "decimalLimit": 4
+      }
+    },
+    "choiceSchema": {
+      "index": null,
+      "value": "",
+      "type": "option",
+      "errorFlag": false
+    },
+    "notificationSchema": {
+      "mode": false,
+      "selectedIndex": null,
+      "selectedOption": null,
+      "contacts": []
+    }
+  }
+}, {
+  "fieldType": "DateTime",
+  "schemas": {
+    "dateInfoDataSchema": {
+      "collect": "MDY",
+      "format": "MDY",
+      "validation": {
+        "minFlag": true,
+        "min": {
+          "value": "",
+          "conf": {
+            "month": "01",
+            "date": 1,
+            "year": 1990
+          }
+        },
+        "maxFlag": false,
+        "max": {
+          "value": "",
+          "conf": {
+            "month": "01",
+            "date": 1,
+            "year": 2020
+          }
+        }
+      }
+    },
+    "timeInfoDataSchema": {
+      "format": "hh:mm a",
+      "validation": {
+        "minFlag": true,
+        "min": {
+          "value": "",
+          "conf": {
+            "HHhr": {
+              "HH": "00",
+              "mm": "00"
+            },
+            "hhhr": {
+              "hh": "12",
+              "mm": "00"
+            },
+            "meridian": "AM"
+          }
+        },
+        "maxFlag": false,
+        "max": {
+          "value": "",
+          "conf": {
+            "HHhr": {
+              "HH": "00",
+              "mm": "00"
+            },
+            "hhhr": {
+              "hh": "12",
+              "mm": "00"
+            },
+            "meridian": "AM"
+          }
+        }
+      }
+    },
+    "months": [{
+      "text": "Jan",
+      "value": "01"
+    }, {
+      "text": "Feb",
+      "value": "02"
+    }, {
+      "text": "Mar",
+      "value": "03"
+    }, {
+      "text": "Apr",
+      "value": "04"
+    }, {
+      "text": "May",
+      "value": "05"
+    }, {
+      "text": "Jun",
+      "value": "06"
+    }, {
+      "text": "Jul",
+      "value": "07"
+    }, {
+      "text": "Aug",
+      "value": "08"
+    }, {
+      "text": "Sep",
+      "value": "09"
+    }, {
+      "text": "Oct",
+      "value": "10"
+    }, {
+      "text": "Nov",
+      "value": "11"
+    }, {
+      "text": "Dec",
+      "value": "12"
+    }],
+    "dateCollectSchema": [{
+      "text": "Month, date, year",
+      "value": "MDY"
+    }, {
+      "text": "Month, year",
+      "value": "MY"
+    }, {
+      "text": "Year only",
+      "value": "Y"
+    }],
+    "monthDateYearformats": [{
+      "text": "MM/DD/YYYY",
+      "value": "MDY"
+    }, {
+      "text": "DD/MM/YYYY",
+      "value": "DMY"
+    }, {
+      "text": "YYYY/MM/DD",
+      "value": "YMD"
+    }],
+    "montheYearformats": [{
+      "text": "MM/YYYY",
+      "value": "MY"
+    }, {
+      "text": "YYYY/MM",
+      "value": "YM"
+    }],
+    "yearformats": [{
+      "text": "YYYY",
+      "value": "Y"
+    }],
+    "responseSchema": {
+      "month": "",
+      "year": "",
+      "date": "",
+      "time": "",
+      "meridian": ""
+    },
+    "notificationSchema": {
+      "mode": false,
+      "selectedIndex": null,
+      "selectedOption": null,
+      "contacts": []
+    }
+  }
+}, {
+  "fieldType": "Scale",
+  "schemas": {
+    "labelSchema": {
+      "index": 1,
+      "type": "OPTION",
+      "label": "",
+      "weight": null,
+      "errorFlag": false
+    },
+    "naSchema": {
+      "index": 0,
+      "type": "NA",
+      "label": "N/A",
+      "weight": 0,
+      "errorFlag": false
+    },
+    "otherOptionSchema": {
+      "index": null,
+      "label": "Other",
+      "type": "Other",
+      "commentField": false,
+      "errorFlag": false
+    },
+    "commentFieldSchema": {
+      "errorMessage": "Please enter a comment.",
+      "commentMessage": "",
+      "constraint": {
+        "lettersAllowed": true,
+        "numbersAllowed": true,
+        "specialCharactersAllowed": true,
+        "minCharsFlag": false,
+        "minChars": 0,
+        "maxCharsFlag": false,
+        "maxChars": 250,
+        "minLimitFlag": false,
+        "minLimit": 0,
+        "maxLimitFlag": false,
+        "maxLimit": 10,
+        "decimalLimitFlag": false,
+        "decimalLimit": 4
+      }
+    },
+    "notificationSchema": {
+      "mode": false,
+      "selectedIndex": null,
+      "selectedOption": null,
+      "contacts": []
+    }
+  }
+}, {
+  "fieldType": "formTable",
+  "schemas": {
+    "fieldSchema": {
+      "label": "",
+      "type": "OPTION",
+      "errorFlag": false
+    },
+    "notificationSchema": {
+      "mode": false,
+      "selectedIndex": null,
+      "selectedOption": null,
+      "contacts": []
+    }
+  }
+},{
+  "fieldType": "formTextArea",
+  "schemas": {
+    "notificationSchema": {
+      "mode": false,
+      "selectedIndex": null,
+      "selectedOption": null,
+      "contacts": []
+    }
+  }
+}]

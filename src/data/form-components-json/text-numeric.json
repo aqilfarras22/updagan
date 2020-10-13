@@ -1,0 +1,28 @@
+{
+  "name": "formTextNumeric",
+  "fieldName": "",
+  "body": "",
+  "fieldType": "QUESTION",
+  "order": 1,
+  "mode": "new",
+  "required": false,
+  "constraint": {
+    "lettersAllowed": true,
+    "numbersAllowed": true,
+    "specialCharactersAllowed": true,
+    "decimalsPlaces": 2,
+    "minCharsFlag": false,
+    "minChars": 0,
+    "maxCharsFlag": false,
+    "maxChars": 250,
+    "minLimitFlag": false,
+    "minValue": 0,
+    "maxLimitFlag": false,
+    "maxValue": 20,
+    "decimalLimitFlag": false,
+    "decimalLimit": 4
+  },
+  "placeholder": "Enter your answer here",
+  "notifications": [],
+  "fieldNameErrorMsg": ""
+}

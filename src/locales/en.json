@@ -1,0 +1,107 @@
+{
+  "general": {
+    "copyright": "Thread Vue © 2018 All Rights Reserved.",
+    "activity": "Activity"
+  },
+  "menu": {
+    "app": "Home",
+    "enrollment": "Enrollment",
+    "dashboards": "Dashboards",
+    "recruitment": "Recruitment",
+    "default": "Default",
+    "econsent": "eConsents",
+    "analytics": "Analytics",
+    "participantStatus": "Participant Status",
+    "ecommerce": "E- Commerce",
+    "content": "Content",
+    "dataCollection": "Data Collection",
+    "thread": "Thread",
+    "search": "Search"
+  },
+  "enrollment": {
+    "eConsentUpload": "E-Consent vs Uploaded",
+    "eConsentMode": "E-Consent Mode Proportion",
+    "consentCompletionQuiz": "Quiz Completion Proportion",
+    "siteFilter": "Site Filter",
+    "totalConsent": "Total eConsent",
+    "countryFilter": "Country Filter",
+    "participantStatus": "Participant Status (%)",
+    "totalParticipantStatus": "Total Participant Status",
+    "top5Site": "Top Sites with Most Active Participants",
+    "topStatuses": "Status Analytics",
+    "withdrawal": {
+      "titleCardWithdrawParticipant": "Total Withdraw Participant",
+      "titleCardTopWithdrawalReason": "Top 10 Withdrawal",
+      "titleMainChart": "Participant Percent Completed"
+    },
+    "completionChartTitle": "Activity Overview",
+    "completionChartXAxisLabel": "Study Activities",
+    "percentCompletion": "% Completion",
+    "percentCompliance": "% Compliance",
+    "completionDateTitle": "Compliance Date Selection",
+    "participantListCompliance": "Participant Details"
+  },
+  "datapoint": {
+    "countryFilter": "Country Filter",
+    "siteFilter": "Site Filter",
+    "complianceRateLegend": "Compliance Rate",
+    "completionRateLegend": "Completion Rate",
+    "complianceAverageLegend": "Compliance Average",
+    "completionAverageLegend": "Completion Average",
+    "hoverInformation": "Hover to plot to show number of participants",
+    "clickInformation": "Click Activity Overview plot to show participant details",
+    "compliancePerformance": "Compliance Overview",
+    "complianceAverage": "Compliance Average %"
+  },
+  "dashboards": {
+    "thread": "Thread",
+    "type": "Type",
+    "keyword": "Keyword",
+    "search": "Search"
+  },
+  "pages": {
+    "description": "Description",
+    "status": "Status",
+    "cancel": "Cancel",
+    "submit": "Submit",
+    "delete": "Delete",
+    "header": "Header"
+  },
+  "chat": {
+    "messages": "Messages",
+    "contacts": "Contacts"
+  },
+  "alert": {
+    "vue-notifications": "Notifications",
+    "success": "Success",
+    "warning": "Warning",
+    "error": "Error"
+  },
+  "button": {
+    "unselect": "Unselect",
+    "apply": "Apply"
+  },
+  "forms": {
+    "all": "All",
+    "selectAll": "Select All",
+    "basic": "Basic",
+    "email": "E-mail",
+    "password": "Password",
+    "submit": "Submit",
+    "signin": "Sign in",
+    "email-u": "E-MAIL",
+    "password-u": "PASSWORD",
+    "city": "City",
+    "city-message": "Please select a city!",
+    "state-message": "Please select a state!",
+    "zip": "Zip",
+    "signup": "Signup",
+    "default": "Default",
+    "firstname": "First name",
+    "firstname-message": "Please enter your first name!",
+    "lastname": "Last name",
+    "lastname-message": "Please enter your last name!",
+    "password-confirm": "Confirm Password",
+    "name": "Name"
+  }
+}

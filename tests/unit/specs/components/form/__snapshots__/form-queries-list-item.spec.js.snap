@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/form/form-queries/form-queries-list-item.vue has the expected html structure 1`] = `
+<div
+  class="query-item"
+>
+  <div
+    class="date"
+  >
+    <span>
+      Jan 01, 1970 12:00 AM GMT
+    </span>
+     
+    <span>
+      ID: QWERT
+    </span>
+  </div>
+   
+  <dl>
+    <dt>
+      <strong>
+        authorName1
+      </strong>
+    </dt>
+     
+    <dd>
+      comment1
+    </dd>
+  </dl>
+   
+  <a
+    href="#"
+  >
+    View
+  </a>
+</div>
+`;

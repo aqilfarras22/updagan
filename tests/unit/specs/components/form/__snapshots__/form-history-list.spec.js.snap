@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/form/form-history-list.vue has the expected html structure 1`] = `
+<b
+  fields="[object Object],[object Object],[object Object],[object Object]"
+  formversion="[object Object]"
+  nogutters=""
+  showempty=""
+>
+  TableComponent
+</b>
+`;
+
+exports[`components/form/form-history-list.vue should have all required initial data 1`] = `
+Object {
+  "APPROVED": "Approved",
+  "NOT_APPROVED": "Unapproved",
+}
+`;
+
+exports[`components/form/form-history-list.vue should have all required initial data 2`] = `
+Object {
+  "NOT_VERIFIED": "Unverified",
+  "VERIFIED": "Verified",
+}
+`;
+
+exports[`components/form/form-history-list.vue should have all required initial data 3`] = `
+Object {
+  "MODIFIED": "Form updated",
+}
+`;
+
+exports[`components/form/form-history-list.vue should have all required initial data 4`] = `
+Object {
+  "MODIFIED": "MODIFIED",
+}
+`;
+
+exports[`components/form/form-history-list.vue should have all required initial data 5`] = `
+Array [
+  Object {
+    "key": "createdOn",
+    "label": "Date",
+    "sortable": true,
+  },
+  Object {
+    "key": "eventType",
+    "label": "Action",
+    "sortable": true,
+  },
+  Object {
+    "key": "issuer",
+    "label": "By",
+    "sortable": true,
+  },
+  Object {
+    "key": "view",
+    "label": " ",
+  },
+]
+`;

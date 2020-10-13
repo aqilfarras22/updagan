@@ -1,0 +1,48 @@
+{
+  "name" : "formTable",
+  "body": "",
+  "fieldName": "",
+  "fieldType" : "QUESTION",
+  "required": false,
+  "placeholder": "Enter your answer here",
+  "noOfFields": 3,
+  "additionalFields": false,
+  "maxFields": 10,
+  "mode" : "new",
+  "fields": [{
+      "index": 0,
+      "label": "",
+      "type": "OPTION",
+      "errorFlag": false
+    },
+    {
+      "index": 1,
+      "label": "",
+      "type": "OPTION",
+      "errorFlag": false
+    },
+    {
+      "index": 2,
+      "label": "",
+      "type": "OPTION",
+      "errorFlag": false
+    }
+  ],
+  "constraint": {
+    "lettersAllowed": true,
+    "numbersAllowed": true,
+    "specialCharactersAllowed": true,
+    "minCharsFlag": false,
+    "minChars": 0,
+    "maxCharsFlag": false,
+    "maxChars": 250,
+    "minLimitFlag": false,
+    "minLimit": 0,
+    "maxLimitFlag": false,
+    "maxLimit": 10,
+    "decimalLimitFlag": false,
+    "decimalLimit": 4
+  },
+  "notifications": [],
+  "fieldNameErrorMsg": ""
+}

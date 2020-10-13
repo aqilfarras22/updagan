@@ -1,0 +1,38 @@
+{
+  "name": "formSinglechoice",
+  "fieldName": "",
+  "body": "",
+  "fieldType": "QUESTION",
+  "required": false,
+  "noOfColumns": 1,
+  "otherOptionField": false,
+  "colorCodeEnabled": false,
+  "mode": "new",
+  "options": [{
+      "index": 0,
+      "label": "",
+      "type": "OPTION",
+      "errorFlag": false,
+      "showDropdown": false,
+      "colorCoding": {
+        "color": "#ffffff",
+        "warningMessage": ""
+      },
+      "colorOptions":["#ffffff","#f16559","#ffa800","#48bf7a"]
+    },
+    {
+      "index": 1,
+      "label": "",
+      "type": "OPTION",
+      "errorFlag": false,
+      "showDropdown": false,
+      "colorCoding": {
+        "color": "#ffffff",
+        "warningMessage": ""
+      },
+      "colorOptions":["#ffffff","#f16559","#ffa800","#48bf7a"]
+    }
+  ],
+  "notifications": [],
+  "fieldNameErrorMsg": ""
+}

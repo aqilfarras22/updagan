@@ -1,0 +1,162 @@
+.mac {
+  text-rendering: optimizeLegibility;
+}
+.wrap {
+  font-family: Roboto-Regular;
+  background-color: #ffffff;
+  padding-top: 10px;
+  font-size: 14px;
+  overflow: hidden;
+  min-height: 100vh;
+  .clear-both {
+    clear: both;
+  }
+  .loading-class {
+    width: 1%;
+    margin:5% auto;
+  }
+  .truncate {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .participant-section {
+    background-color: #F7F7F7;
+    .change-caret-icon {
+      text-align: center;
+      position: relative;
+      .btn {
+        &.btn-primary {
+          background-color: #F7F7F7;
+          width: auto;
+          .truncate {
+            display: inline-block;
+            text-align: center;
+          }
+        }
+      }
+      .dropdown-toggle {
+        font-size: 20px;
+      }
+      .dropdown-menu {
+        width: 160px;
+        max-height: 288px;
+        left: -3px !important;
+        display: block !important;
+        left: 45.6% !important;
+        top: 100% !important;
+        padding: 0 0;
+        &.list-expanded {
+          max-height: 300px !important;
+          -moz-transition:    all 400ms ease-out;
+          -webkit-transition: all 400ms ease-out;
+          -o-transition:      all 400ms ease-out;
+          -ms-transition:     all 400ms ease-out;
+          transition: all 400ms ease-out;
+        }
+        &.list-collapsed {
+          max-height: 0;
+          transition: all 400ms ease-in;
+          -moz-transition:    all 400ms ease-in;
+          -webkit-transition: all 400ms ease-in;
+          -o-transition:      all 400ms ease-in;
+          -ms-transition:     all 400ms ease-in;
+          overflow: hidden;
+        }
+        &.no-milestone {
+          width: 265px;
+          left: 43% !important;
+          top: 100% !important;
+          li {
+            .font-wieght-bold {
+              font-size: 14px;
+            }
+          }
+        }
+        li {
+          a {
+            color: #000;
+            font-size: 14px;
+            &.no-milestone {
+              color: #a8a8a8 !important;
+              font-size: 14px;
+            }
+          }
+        }
+      }
+      .all-time-wrapper {
+        padding-top: 10px;
+        border-top: 1px solid #E3E3E3;
+        margin-right: 15px;
+      }
+      .btn-styling {
+        width: auto;
+        font-size: 11px;
+        background: #fff;
+        box-shadow: none;
+        border: 1px solid #4c8ce4;
+        border-radius: 5px;
+        font-size: 14px;
+        color: #4c8ce4;
+        padding: 1px 9px;
+      }
+      .btn-styling:focus {
+        border: 1px solid #4c8ce4;
+        outline: none;
+      }
+      .day-styling {
+        border: solid 1px #b0bac9;
+        background: #BFBFBF;
+        border-radius: 5px;
+        font-size: 10px;
+        display: inline-block;
+        vertical-align: middle;
+        border-bottom-right-radius: 0px;
+        border-top-right-radius: 0px;
+        color: #fff;
+        font-weight: normal;
+        padding: 4.5px 2px;
+        margin-top: -3px;
+      }
+      .input-styling {
+        width: 45px;
+        padding: 2px;
+        border-radius: 5px;
+        border: solid 1px #b0bac9;
+        border-bottom-left-radius: 0px;
+        border-top-left-radius: 0px;
+        text-align: center;
+        font-size: small;
+      }
+      .input-styling:focus {
+        outline: none;
+      }
+      .text-to {
+        margin-left: -2px;
+        padding-right: 6px;
+        padding-top: 2px;
+      }
+    }
+  }
+}
+//@extend new re design 2.0
+// css for safari
+// css only for safari
+.mac:not(:root:root) {
+  .day-styling {
+    padding: 4px 2px 4px;
+    margin-top: -3px;
+  }
+}
+
+.mac.chrome {
+  .day-styling {
+    margin-top: -3px;
+  }
+}
+.telehealth-call {
+  .participant-section .change-caret-icon .dropdown-toggle {
+    font-size: 17px;
+  }
+}

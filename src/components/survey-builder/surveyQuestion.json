@@ -1,0 +1,96 @@
+{
+  "id": null,
+  "surveyId": null,
+  "body": null,
+  "formattedBody": null,
+  "type": null,
+  "multipleSelection": false,
+  "bodyImages": [
+    {
+      "imageUrl": null,
+      "imageId": null,
+      "sequence": 1
+    }
+  ],
+  "hasBodyImage": false,
+  "verticalScale": false,
+  "characterLimited": false,
+  "hasMinMax": false,
+  "hasUnits": false,
+  "allowDecimals": false,
+  "isSkippable": true,
+  "sequence": null,
+  "minValue": null,
+  "minValueImage": null,
+  "minValueImageText": null,
+  "maxValue": null,
+  "partitions": null,
+  "maxValueImage": null,
+  "maxValueImageText": null,
+  "defaultValue": null,
+  "labels": [],
+  "dateFormat": "mm/dd/yy",
+  "timeFormat": "12",
+  "showDate": true,
+  "showTime": true,
+  "minValueLabel": null,
+  "maxValueLabel": null,
+  "intervals": null,
+  "textLimit": 200,
+  "textFormat": null,
+  "placeholder": null,
+  "nextQuestionId": null,
+  "units": null,
+  "reportable": false,
+  "showCurrentLocation": null,
+  "branchingConfigured": false,
+  "imageUrl":null,
+  "imageId":null,
+  "templateImageUrl":null,
+  "templateImageId":null,
+  "guideParticipant": false,
+  "options": [
+    {
+      "body": null,
+      "formattedBody": null,
+      "sequence": 1,
+      "nextQuestion": null,
+      "imageUrl": null,
+      "imageId": null
+    },
+    {
+      "body": null,
+      "formattedBody": null,
+      "sequence": 2,
+      "nextQuestion": null,
+      "imageUrl": null,
+      "imageId": null
+    }
+  ],
+  "useEnglishImageAnswer": true,
+  "languageImageOptions": [
+    {
+      "languageId": null,
+      "languageName": null,
+      "languageCulture": null,
+      "options": [
+        {
+          "body": null,
+          "formattedBody": null,
+          "sequence": 1,
+          "nextQuestion": null,
+          "imageUrl": null,
+          "imageId": null
+        },
+        {
+          "body": null,
+          "formattedBody": null,
+          "sequence": 2,
+          "nextQuestion": null,
+          "imageUrl": null,
+          "imageId": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+.DS_Store
+node_modules/
+dist/
+dist.zip
+npm-debug.log
+.vscode/
+.idea/
+*.log
+
+/tests/unit/coverage/
+/tests/e2e/reports/
+yarn.lock
+package-lock.json

@@ -1,0 +1,282 @@
+// Style for quick fixes bootstrap after migration (before redesign should be removed)
+
+.col-xs-12 {
+  width: 100%;
+}
+
+.col-xs-1,
+.col-xs-2,
+.col-xs-3,
+.col-xs-4,
+.col-xs-5,
+.col-xs-6,
+.col-xs-7,
+.col-xs-8,
+.col-xs-9,
+.col-xs-10,
+.col-xs-11,
+.col-xs-12 {
+  float: left;
+  flex: none;
+}
+
+.col-lg-1,
+.col-lg-2,
+.col-lg-3,
+.col-lg-4,
+.col-lg-5,
+.col-lg-6,
+.col-lg-7,
+.col-lg-8,
+.col-lg-9,
+.col-lg-10,
+.col-lg-11,
+.col-lg-12,
+.col-md-1,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-md-10,
+.col-md-11,
+.col-md-12,
+.col-sm-1,
+.col-sm-2,
+.col-sm-3,
+.col-sm-4,
+.col-sm-5,
+.col-sm-6,
+.col-sm-7,
+.col-sm-8,
+.col-sm-9,
+.col-sm-10,
+.col-sm-11,
+.col-sm-12,
+.col-xs-1,
+.col-xs-2,
+.col-xs-3,
+.col-xs-4,
+.col-xs-5,
+.col-xs-6,
+.col-xs-7,
+.col-xs-8,
+.col-xs-9,
+.col-xs-10,
+.col-xs-11,
+.col-xs-12 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.col-xs-10 {
+  width: 83.33333333%;
+}
+
+.panel-default {
+  border-color: #ddd;
+}
+
+.panel {
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+@media (min-width: 768px) {
+  .col-sm-1,
+  .col-sm-2,
+  .col-sm-3,
+  .col-sm-4,
+  .col-sm-5,
+  .col-sm-6,
+  .col-sm-7,
+  .col-sm-8,
+  .col-sm-9,
+  .col-sm-10,
+  .col-sm-11,
+  .col-sm-12 {
+    float: left;
+    flex: none;
+  }
+  .col-sm-12 {
+    width: 100%;
+  }
+  .col-sm-10 {
+    width: 83.33333333%;
+  }
+  .navbar-toggler {
+    display: none;
+  }
+  .navbar-right {
+    float: right !important;
+
+    .navbar-nav {
+      flex-direction: row;
+    }
+
+    li {
+      float: left;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .col-md-1,
+  .col-md-2,
+  .col-md-3,
+  .col-md-4,
+  .col-md-5,
+  .col-md-6,
+  .col-md-7,
+  .col-md-8,
+  .col-md-9,
+  .col-md-10,
+  .col-md-11,
+  .col-md-12 {
+    float: left;
+    flex: none;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+  .col-md-10 {
+    width: 83.33333333%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .col-lg-1,
+  .col-lg-2,
+  .col-lg-3,
+  .col-lg-4,
+  .col-lg-5,
+  .col-lg-6,
+  .col-lg-7,
+  .col-lg-8,
+  .col-lg-9,
+  .col-lg-10,
+  .col-lg-11,
+  .col-lg-12 {
+    float: left;
+    flex: none;
+  }
+  .col-lg-10 {
+    width: 82.33333333%;
+  }
+}
+
+// END of style for quick fixes bootstrap after migration (before redesign should be removed)
+
+.main-header {
+  height: 70px;
+  background-color: #34537d;
+  top: 0px;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+}
+.navbar {
+  min-height: 68px;
+  flex: none;
+  padding-right: 20px;
+}
+.border-line {
+  border-bottom: 1px solid #fff;
+  opacity: 0.2;
+}
+.user-display {
+  overflow: hidden !important;
+  max-width: 80%;
+  font-size: 18px;
+}
+.dropdown-toggle::after {
+  border-width: 4px;
+  margin-bottom: -2px;
+}
+.dropdown-menu {
+  left: 15px !important;
+  padding: 5px 0;
+  margin-top: -2px;
+  margin-left: 19px;
+  font-size: 14px;
+}
+.dropdown {
+  max-width: 400px;
+  color: #fff !important;
+  float: left;
+}
+.dropdown-menu-hide-scroll .show {
+  overflow: hidden !important;
+}
+.navbar-nav {
+  margin: 0;
+}
+.user-icon-image {
+  height: 20px;
+  width: 20px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+li {
+  cursor: pointer;
+}
+.right_links {
+  li {
+    margin: 3px 0 0 20px;
+  }
+}
+.bg-white {
+  background-color: #fff !important;
+}
+.active,
+.router-link-active {
+  border-bottom: 2px solid #f16559;
+}
+.drop_down_list_item {
+  padding: 5px 10px;
+  color: #000;
+  border-bottom: 1px solid #eee;
+}
+.logout {
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-weight: normal;
+  line-height: 1.5;
+  color: #333;
+  white-space: nowrap;
+  border-bottom: 1px solid #eee;
+}
+// .toggle-style {
+//   border: none;
+// }
+// .navbar-default .navbar-brand:hover,
+// .navbar-default .navbar-brand:focus {
+//   color: #fff;
+//   background-color: transparent;
+//   cursor: pointer;
+// }
+// .navbar-brand {
+//   height: 45px !important;
+// }
+.user_icon {
+  position: relative;
+  bottom: 0px;
+}
+
+.resizedHeader {
+  width: 74%;
+}
+// .added-margin {
+//   margin-right: 1100px;
+// }

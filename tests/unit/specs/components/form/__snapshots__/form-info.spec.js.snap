@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/form/form-info.vue has the expected html structure 1`] = `
+<div>
+  <dl>
+    <dt>
+      Form Name
+    </dt>
+     
+    <dd>
+      e-visit 1
+    </dd>
+  </dl>
+   
+  <dl>
+    <dt>
+      Verification Status
+    </dt>
+     
+    <dd>
+      <div
+        class="VERIFIED"
+      >
+        Verified
+      </div>
+       
+      <div
+        class="date"
+      >
+        
+        ("1970-01-18T13:07:14.703Z")
+      
+      </div>
+    </dd>
+  </dl>
+   
+  <dl>
+    <dt>
+      Approval Status
+    </dt>
+     
+    <dd>
+      <div
+        class="NOT_APPROVED"
+      >
+        Unapproved
+      </div>
+       
+      <!---->
+    </dd>
+  </dl>
+   
+  <div
+    class="actions"
+  >
+    <button-cmp-stub
+      class="form-action-button"
+      size="lg"
+      variant="primary"
+    >
+      Approve
+    </button-cmp-stub>
+     
+    <button-cmp-stub
+      class="form-action-button"
+      size="lg"
+      variant="primary"
+    >
+      Unverify
+    </button-cmp-stub>
+  </div>
+   
+  <formapprovalmodal-stub
+    callapi="true"
+    formid="66066679-1eef-480b-86b7-c7745fa4fb87"
+  />
+   
+  <formverificationmodal-stub
+    callapi="true"
+    formid="66066679-1eef-480b-86b7-c7745fa4fb87"
+    verified="true"
+  />
+</div>
+`;

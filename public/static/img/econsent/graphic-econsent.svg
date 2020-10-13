@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="217" height="401" viewBox="0 0 217 401">
+    <defs>
+        <path id="b" d="M0 19.998C0 8.953 8.947 0 20 0h148.132c11.045 0 20.024 8.964 20.055 19.998l.914 332.882c.03 11.044-8.894 19.998-19.942 19.998H19.997C8.953 372.878 0 363.914 0 352.88V19.998z"/>
+        <filter id="a" width="127.5%" height="113.9%" x="-13.7%" y="-4.3%" filterUnits="objectBoundingBox">
+            <feOffset dy="10" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="7"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+        </filter>
+        <path id="c" d="M0 52.148h52.834V.182H0v51.966z"/>
+        <path id="e" d="M26.417 52.148h26.417V.182H0v51.966h26.417V.182H0v51.966h26.417z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd" transform="translate(14 4)">
+        <use fill="#000" filter="url(#a)" xlink:href="#b"/>
+        <use fill="#4A4A4A" xlink:href="#b"/>
+        <path fill="#3D3D3D" d="M108.368 353.5c0 8.009-6.351 14.502-14.184 14.502C86.35 368.002 80 361.509 80 353.5S86.35 339 94.184 339c7.833 0 14.184 6.493 14.184 14.5"/>
+        <path fill="#F5FBFF" d="M10 26h170v308.66H10z"/>
+        <rect width="95.771" height="21.517" x="47" y="290" fill="#83C6A8" rx="10.759"/>
+        <text fill="#FFF" font-family="Roboto-Regular, Roboto" font-size="10">
+            <tspan x="85.115" y="301">Next</tspan>
+        </text>
+        <path stroke="#D7E1E7" stroke-linecap="square" stroke-width=".5" d="M10 56.125h170"/>
+        <g transform="translate(68 104.14)">
+            <mask id="d" fill="#fff">
+                <use xlink:href="#c"/>
+            </mask>
+            <path fill="#FF2D55" d="M26.417.182C11.827.182 0 9.646 0 21.32c0 8.69 6.556 16.153 15.923 19.401v11.427l9.723-9.705c.257.006.513.016.771.016 14.59 0 26.417-9.464 26.417-21.139C52.834 9.646 41.008.182 26.417.182" mask="url(#d)"/>
+        </g>
+        <g transform="translate(68 104.14)">
+            <mask id="f" fill="#fff">
+                <use xlink:href="#e"/>
+            </mask>
+            <path fill="#ED655F" d="M0 21.32c0 8.69 6.556 16.153 15.923 19.401v11.427l9.723-9.705c.257.006.513.016.771.016V.182C11.827.182 0 9.646 0 21.32" mask="url(#f)"/>
+        </g>
+        <path fill="#FFF" d="M103.694 129.667c-.166-3.003-.412-5.467-.412-8.47 0-1.557.055-3.796.522-5.269l4.087-.51c-.411 1.955-.74 3.967-.74 5.95v8.299h-3.457zm-.741 3.966c0-1.275 1.235-2.21 2.496-2.21 1.235 0 2.387.85 2.387 2.096 0 1.247-1.234 2.21-2.524 2.21-1.206 0-2.359-.85-2.359-2.096zm-6.777 1.699h3.924v-13.88h-3.924v13.88zm-.465-17.534c0-1.36 1.234-2.408 2.496-2.408 1.234 0 2.387.935 2.387 2.267 0 1.387-1.235 2.378-2.496 2.378-1.235 0-2.387-.905-2.387-2.237zm-6.393 17.534v-7.45h-3.896v7.45h-4.087v-17.846h4.087v6.742h3.896v-6.742h4.088v17.846h-4.088z"/>
+        <text font-family="Roboto-Regular, Roboto" font-size="11">
+            <tspan x="25.753" y="176.398" fill="#666669">This simple walkthrough will </tspan> <tspan x="20.919" y="190.398" fill="#666669">explain the research study, the </tspan> <tspan x="20.481" y="204.398" fill="#666669">impact it may have on your life </tspan> <tspan x="26.194" y="218.398" fill="#666669">and will allow you to provide </tspan> <tspan x="28.2" y="232.398" fill="#666669">your consent to participate.</tspan> <tspan x="95" y="246.398" fill="#666669"> </tspan> <tspan x="67.146" y="260.398" fill="#4C6473">Learn more</tspan>
+        </text>
+        <text fill="#4C6473" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400">
+            <tspan x="65.24" y="89">Welcome</tspan>
+        </text>
+        <text fill="#666669" font-family="Roboto-Medium, Roboto" font-size="10" font-weight="400">
+            <tspan x="76.438" y="45">Consent</tspan>
+        </text>
+        <path fill="#4C6473" d="M23.385 36.177L22.214 35 16 41.24l6.214 6.239 1.171-1.177-5.042-5.063 5.042-5.062z"/>
+    </g>
+</svg>

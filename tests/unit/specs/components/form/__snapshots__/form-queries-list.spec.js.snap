@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/form/form-queries/form-queries-list.vue has the expected html structure 1`] = `
+<b-list-group-stub
+  flush="true"
+  tag="div"
+>
+  <b>
+    b-list-group-item
+  </b>
+  <b>
+    b-list-group-item
+  </b>
+</b-list-group-stub>
+`;

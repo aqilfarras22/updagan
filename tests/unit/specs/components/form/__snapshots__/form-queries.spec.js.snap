@@ -1,0 +1,148 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/form/form-queries.vue has the expected html structure 1`] = `
+<b-tabs-stub
+  class="form-queries-tabs"
+  fakeprop=""
+  tag="div"
+  value="0"
+>
+  <b-tab-stub
+    buttonid=""
+    href="#"
+    tag="div"
+    title="Open Queries: 2"
+  >
+    <b>
+      FormQueriesCommentForm
+    </b>
+  </b-tab-stub>
+   
+  <b-tab-stub
+    buttonid=""
+    href="#"
+    tag="div"
+    title="Closed Queries: 1"
+  >
+    <div>
+      <!---->
+       
+      <b
+        queries="[object Object]"
+      >
+        FormQueriesList
+      </b>
+    </div>
+  </b-tab-stub>
+</b-tabs-stub>
+`;
+
+exports[`components/form/form-queries.vue has the expected html structure 2`] = `
+<b-tabs-stub
+  class="form-queries-tabs"
+  fakeprop=""
+  tag="div"
+  value="0"
+>
+  <b-tab-stub
+    buttonid=""
+    href="#"
+    tag="div"
+    title="Open Queries: 2"
+  >
+    <b>
+      FormQueriesCommentForm
+    </b>
+  </b-tab-stub>
+   
+  <b-tab-stub
+    buttonid=""
+    href="#"
+    tag="div"
+    title="Closed Queries: 1"
+  >
+    <div>
+      <!---->
+       
+      <b
+        queries="[object Object]"
+      >
+        FormQueriesList
+      </b>
+    </div>
+  </b-tab-stub>
+</b-tabs-stub>
+`;
+
+exports[`components/form/form-queries.vue has the expected html structure 3`] = `
+<b-tabs-stub
+  class="form-queries-tabs"
+  fakeprop=""
+  tag="div"
+  value="0"
+>
+  <b-tab-stub
+    buttonid=""
+    href="#"
+    tag="div"
+    title="Open Queries: 2"
+  >
+    <b>
+      FormQueriesCommentForm
+    </b>
+  </b-tab-stub>
+   
+  <b-tab-stub
+    buttonid=""
+    href="#"
+    tag="div"
+    title="Closed Queries: 1"
+  >
+    <div>
+      <b
+        closed=""
+        query="[object Object]"
+      >
+        FormQueriesQueryDetails
+      </b>
+    </div>
+  </b-tab-stub>
+</b-tabs-stub>
+`;
+
+exports[`components/form/form-queries.vue should switch between tabs 1`] = `
+<b-tabs-stub
+  class="form-queries-tabs"
+  fakeprop=""
+  tag="div"
+  value="1"
+>
+  <b-tab-stub
+    buttonid=""
+    href="#"
+    tag="div"
+    title="Open Queries: 2"
+  >
+    <b>
+      FormQueriesCommentForm
+    </b>
+  </b-tab-stub>
+   
+  <b-tab-stub
+    buttonid=""
+    href="#"
+    tag="div"
+    title="Closed Queries: 1"
+  >
+    <div>
+      <!---->
+       
+      <b
+        queries="[object Object]"
+      >
+        FormQueriesList
+      </b>
+    </div>
+  </b-tab-stub>
+</b-tabs-stub>
+`;

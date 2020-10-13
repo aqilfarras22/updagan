@@ -1,0 +1,551 @@
+.heading-box{
+    margin-left:50px;
+    margin-top:43px;
+
+    .main-heading{
+        font-family: Lato-Regular;
+        font-size: 34px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.21;
+        letter-spacing: normal;
+        color: #2d3752;
+    }
+
+    .sub-heading{
+        font-family: Lato-Regular;
+        font-size: 17px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.29;
+        letter-spacing: normal;
+        color: #4a4a4a;
+        margin-top:4px;
+    }
+}
+
+
+
+.child-container{
+    margin-left:50px;
+    margin-right:50px;
+    margin-bottom:50px;
+    margin-top:20px;
+    border-radius: 4px;
+    border: solid 1px #e4e8eb;
+    background-color: #ffffff;
+    padding:20px 20px;
+
+    .box{
+        .box-heading{
+            font-family: Lato-Regular;
+            font-size: 20px;
+            font-weight: bold;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: 1.4;
+            letter-spacing: normal;
+            color: #4a4a4a;
+
+            img{
+                margin-right:10px;
+            }
+        }
+        .active{
+                color:#1e8fe1;
+            }
+
+        .inner-box{
+            margin-left:35px;
+        }
+
+        .input-field{
+            width: 250px;
+            height: 40px;
+            border-radius: 3px;
+            border: solid 1px #e4e8eb;
+            background-color: #ffffff;
+            font-family: Lato-Regular;
+            font-size: 15px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: 1.33;
+            letter-spacing: normal;
+            color: #9b9b9b;
+            padding-left:11.5px;
+            margin-top:10px;
+        }
+
+        .continue-btn1{
+             width: 100px;
+            height: 36px;
+            border-radius: 4px;
+            border: solid 2px #ffffff;
+            display: block;
+            margin-top:15px;
+            font-family: Lato-Regular;
+            font-size: 15px;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: 1.33;
+            letter-spacing: normal;
+            text-align: center;
+            color: #ffffff;
+            background: #1e8fe1;
+        }
+    }
+
+    .box-divider{
+        width: 1000px;
+        height: 1px;
+        background-color: #e4e8eb;
+        margin-top:15px;
+        margin-bottom:15px;
+    }
+
+    .add-another-education-screen-btn{
+        width: 150px;
+        height: 30px;
+        border-radius: 3px;
+        background-color: #fff;
+        font-family: Lato-Regular;
+        font-size: 13px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #1e8fe1;
+        border:1px solid #1e8fe1;
+        margin-top:20px;
+    }
+
+    .box2-content{
+        font-family: Lato-Regular;
+        font-size: 15px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.33;
+        letter-spacing: normal;
+        color: #4a4a4a;
+        margin:7px 0px;
+    }
+
+    .box2-draggable-education{
+        width: 970px;
+        height:70%;
+        border-radius: 3px;
+        border: solid 1px #e4e8eb;
+        background-color: #f5f6f7;
+        margin-top:10px;
+        margin-right:20px;
+
+        span{
+            display: block;
+            float: left;
+            width: auto;
+
+            img{
+                padding:25px 10px;
+            }
+        }
+
+        .content{
+            padding:15px 0px;
+            display: inline-block;
+            float:left;
+            width:80%;
+
+            .heading{
+                font-family: Lato-Regular;
+                font-size: 15px;
+                font-weight: bold;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: 1.33;
+                letter-spacing: normal;
+                color: #4a4a4a;
+            }
+
+            .text{
+                 font-family: Lato-Regular;
+                font-size: 15px;
+                font-weight: normal;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: 1.33;
+                letter-spacing: normal;
+                color: #4a4a4a;
+            }
+        }  
+
+        .btn{
+            float:right;
+            padding:20px;
+
+            button{
+                width: 70px;
+                height: 30px;
+                border-radius: 3px;
+                background-color: #f5f6f7;
+                font-family: Lato-Regular;
+                font-size: 13px;
+                font-weight: normal;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                text-align: center;
+                color: #1e8fe1;
+                border:solid 1px #1e8fe1;
+            }
+        }
+        
+        .clearfix{
+            clear:both;
+        }
+
+        .box3-content{
+             font-family: Lato;
+            font-size: 15px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: 1.33;
+            letter-spacing: normal;
+            color: #4a4a4a;
+            margin-top:6px;
+        }
+    }
+
+    .add-a-question-btn{
+            width: 150px;
+            height: 30px;
+            border-radius: 3px;
+            background-color: #fff;
+            font-family: Lato-Regular;
+            font-size: 13px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            text-align: center;
+            color: #1e8fe1;
+            border:solid 1px #1e8fe1;
+            margin-top:20px;
+
+        }
+
+    .continue-btn3{
+             width: 100px;
+            height: 36px;
+            border-radius: 4px;
+            border: solid 2px #ffffff;
+            display: block;
+            margin-top:15px;
+            font-family: Lato-Regular;
+            font-size: 15px;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: 1.33;
+            letter-spacing: normal;
+            text-align: center;
+            color: #ffffff;
+            background: #1e8fe1;
+            margin-top:30px;
+        }
+}
+
+
+.document-section{
+    .btns{
+        float:right;
+
+        .cancel-btn{
+            width: 100px;
+            height: 36px;
+            border-radius: 3px;
+            background-color: #fff;
+            font-family:Lato-Regular;
+            font-size: 15px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: 1.33;
+            letter-spacing: normal;
+            text-align: center;
+            color: #1e8fe1;
+            border:#1e8fe1 1px solid;
+        }
+
+        .save-btn{
+            width: 100px;
+            height: 36px;
+            border-radius: 3px;
+            background-color: #1e8fe1;
+            font-family: Lato-Regular;
+            font-size: 15px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: 1.33;
+            letter-spacing: normal;
+            text-align: center;
+            color: #fff;
+            border:1px solid #1e8fe1;
+        }
+
+    }
+
+    .heading1{
+        font-family: Lato-Regular;
+        font-size: 17px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.29;
+        letter-spacing: normal;
+        color: #4a4a4a;
+        margin-top:6px;
+    }
+
+    .heading2{
+        margin-top:30px;
+        font-family: Lato-Regular;
+        font-size: 17px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.29;
+        letter-spacing: normal;
+        color: #4a4a4a;
+    }
+
+    .heading3{
+        margin-top:30px;
+        font-family: Lato-Regular;
+        font-size: 17px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.29;
+        letter-spacing: normal;
+        color: #4a4a4a;
+    }
+
+    .text1{
+        font-family: Lato-Regular;
+        font-size: 15px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.33;
+        letter-spacing: normal;
+        color: #4a4a4a;
+    }
+
+    .upload-btn{
+        margin-top:10px;
+
+        .upload-btn{
+            width: 100px;
+            height: 30px;
+            border-radius: 3px;
+            background-color: #fff;
+            font-family: Lato-Regular;
+            font-size: 13px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            text-align: center;
+            color: #1e8fe1;
+            border:solid 1px #1e8fe1;
+        }
+    }
+
+    .input1{
+        margin-top:10px;
+
+        input{
+            width: 450px;
+            height: 40px;
+            border-radius: 3px;
+            border: solid 1px #e4e8eb;
+            background-color: #ffffff;
+            padding-left:11px;
+        }
+
+        input:placeholder{
+            font-family: Lato-Regular;
+            font-size: 15px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: 1.33;
+            letter-spacing: normal;
+            color: #9b9b9b;
+        }
+    }
+
+    .input2{
+        margin-top:10px;
+
+        textarea{
+            width: 970px;
+            height: 100px;
+            border-radius: 3px;
+            border: solid 1px #e4e8eb;
+            background-color: #ffffff;
+            padding-left:10px;
+            padding-top:10px;
+        }
+
+        textarea:placeholder{
+            font-family: Lato;
+            font-size: 15px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: 1.33;
+            letter-spacing: normal;
+            color: #9b9b9b;
+        }
+    }
+}
+.bottom-section{
+    margin-top:50px;
+
+    .left-block{
+        float:left;
+    }
+
+    .right-block{
+        float:right;
+
+        .save-btn{
+            width: 100px;
+            height: 36px;
+            border-radius: 4px;
+            border: solid 2px #1e8fe1;
+            font-family: Lato-Regular;
+            font-size: 15px;
+            font-weight: bold;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: 1.33;
+            letter-spacing: normal;
+            text-align: center;
+            background: #1e8fe1;
+            color: #ffffff;
+        }
+    }
+
+    .clearfix{
+        clear: both;
+    }
+}
+
+.file-upload {
+    position: relative;
+    overflow: hidden;
+    border: none;
+    width: 80px;
+    height: 30px;
+    border-radius: 3px;
+    padding: 5px 10px;
+    display: inline;
+    background-color: #fff;
+    width: 100px;
+    height: 36px;
+    border-radius: 4px;
+    border: solid 1px #1e8fe1;
+    font-family: Lato-Regular;
+    font-size: 13px;
+    /* font-weight: bold; */
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    background: #fff;
+    color: #1e8fe1;
+}
+
+.question-panel{
+    
+    .question-section{
+        width: 970px;
+        height:auto;
+        border-radius: 3px;
+        border: solid 1px #e4e8eb;    
+        background:#e4e8eb;
+        padding:15px;
+        margin-top:10px;
+    }
+
+    .heading{
+        font-family: Lato-Regular;
+        font-size: 15px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.33;
+        letter-spacing: normal;
+        color: #4a4a4a;
+    }
+
+    .description{
+        font-family: Lato-Regular;
+        font-size: 15px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.33;
+        letter-spacing: normal;
+        color: #4a4a4a;
+    }
+
+    .edit-btn{
+        width: 150px;
+        height: 30px;
+        border-radius: 3px;
+        background-color: #fff;
+        font-family: Lato-Regular;
+        font-size: 13px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #1e8fe1;
+        border:1px solid #1e8fe1;
+        margin-top:20px;
+    }
+}
+
+.box2-continue-btn{
+    width: 100px;
+            height: 36px;
+            border-radius: 4px;
+            border: solid 2px #ffffff;
+            display: block;
+            margin-top:15px;
+            font-family: Lato-Regular;
+            font-size: 15px;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: 1.33;
+            letter-spacing: normal;
+            text-align: center;
+            color: #ffffff;
+            background: #1e8fe1;
+}

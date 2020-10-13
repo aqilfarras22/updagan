@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/form/form-queries/form-queries-query-comment.vue has the expected html structure 1`] = `
+<div
+  class="comment-item"
+>
+  <div
+    class="date"
+  >
+    <span>
+      Jan 01, 1970 12:00 AM GMT
+    </span>
+  </div>
+   
+  <dl>
+    <dt>
+      <strong>
+        authorName
+      </strong>
+    </dt>
+     
+    <dd>
+      comment
+    </dd>
+  </dl>
+</div>
+`;

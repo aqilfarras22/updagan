@@ -1,0 +1,137 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pages/study-participants/study-participant-details.vue should has the expected html structure 1`] = `
+<b-container-stub
+  class="pt-30 mb-5 component"
+  fluid="true"
+  tag="div"
+>
+  <b-row-stub
+    tag="div"
+  >
+    <b-col-stub
+      cols="2"
+      tag="div"
+    >
+      <b
+        class="back-button"
+        size="sm"
+        variant="link"
+      >
+        ButtonCmp
+      </b>
+       
+      <b
+        name="name"
+      >
+        FormInfoCmp
+      </b>
+       
+      <hr
+        class="mt-30 mb-30"
+      />
+       
+      <b
+        participantdetails="[object Object]"
+      >
+        ParticipantInfoCmp
+      </b>
+    </b-col-stub>
+     
+    <b-col-stub
+      class="pb-20"
+      cols="10"
+      tag="div"
+    >
+      <b-card-stub
+        bodytag="div"
+        class="border-0 shadow study-particip-form-block"
+        footertag="div"
+        headertag="div"
+        nobody="true"
+        subtitletag="h6"
+        tag="div"
+        titletag="h4"
+      >
+        <b-row-stub
+          nogutters="true"
+          tag="div"
+        >
+          <b-col-stub
+            cols="7"
+            tag="div"
+            xl="8"
+          >
+            <b-tabs-stub
+              tag="div"
+              value="0"
+            >
+              <b-tab-stub
+                buttonid=""
+                href="#"
+                tag="div"
+                title="Latest Version"
+              >
+                <b-row-stub
+                  tag="div"
+                >
+                  <b-col-stub
+                    tag="div"
+                  >
+                    <div
+                      class="float-right my-1"
+                    >
+                      <b
+                        size="sm"
+                        variant="outline-secondary"
+                      >
+                        ButtonCmp
+                      </b>
+                    </div>
+                  </b-col-stub>
+                </b-row-stub>
+                 
+                <b
+                  fieldswithqueries=""
+                  sections="[object Object],[object Object]"
+                >
+                  FormFieldsListCmp
+                </b>
+                 
+                <!---->
+              </b-tab-stub>
+               
+              <b-tab-stub
+                buttonid=""
+                href="#"
+                tag="div"
+                title="History"
+              >
+                <b
+                  history=""
+                >
+                  FormHistoryListCmp
+                </b>
+              </b-tab-stub>
+            </b-tabs-stub>
+          </b-col-stub>
+           
+          <b-col-stub
+            class="tabs-queries"
+            cols="5"
+            tag="div"
+            xl="4"
+          >
+            <b
+              formid="111"
+              queries="[object Object],[object Object]"
+            >
+              FormQueriesCmp
+            </b>
+          </b-col-stub>
+        </b-row-stub>
+      </b-card-stub>
+    </b-col-stub>
+  </b-row-stub>
+</b-container-stub>
+`;

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="130" height="40" viewBox="0 0 130 40">
+    <defs>
+        <rect id="a" width="40" height="40" x="90" rx="3"/>
+        <rect id="b" width="40" height="40" x="45" rx="3"/>
+        <rect id="c" width="40" height="40" rx="3"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <use fill="#F1C40F" xlink:href="#a"/>
+        <rect width="38.5" height="38.5" x="90.75" y=".75" stroke="#D4B322" stroke-width="1.5" rx="3"/>
+        <rect width="24" height="4.8" x="98" y="21" fill="#D4B322" rx="2.4"/>
+        <rect width="24" height="4.8" x="98" y="14" fill="#D4B322" rx="2.4"/>
+        <use fill="#FF7261" xlink:href="#b"/>
+        <rect width="38.5" height="38.5" x="45.75" y=".75" stroke="#D15F52" stroke-width="1.5" rx="3"/>
+        <rect width="24" height="4.8" x="53" y="17.6" fill="#D15F52" rx="2.4"/>
+        <g>
+            <use fill="#1ABC9C" xlink:href="#c"/>
+            <rect width="38.5" height="38.5" x=".75" y=".75" stroke="#169D82" stroke-width="1.5" rx="3"/>
+        </g>
+        <path fill="#169D82" d="M17.6 17.6h-7.2A2.402 2.402 0 0 0 8 20c0 1.335 1.075 2.4 2.4 2.4h7.2v7.2c0 1.322 1.075 2.4 2.4 2.4 1.335 0 2.4-1.075 2.4-2.4v-7.2h7.2c1.322 0 2.4-1.075 2.4-2.4 0-1.335-1.075-2.4-2.4-2.4h-7.2v-7.2C22.4 9.078 21.325 8 20 8a2.394 2.394 0 0 0-2.4 2.4v7.2z"/>
+    </g>
+</svg>

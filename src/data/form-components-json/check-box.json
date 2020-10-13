@@ -1,0 +1,36 @@
+{
+  "name": "formCheckbox",
+  "fieldName": "",
+  "body": "",
+  "fieldType": "QUESTION",
+  "mode": "new",
+  "required": false,
+  "noOfColumns": 1,
+  "otherOptionField": false,
+  "colorCodeEnabled": false,
+  "options": [{
+      "index": 0,
+      "label": "",
+      "type": "OPTION",
+      "errorFlag": false,
+      "showDropdown": false,
+      "colorCoding": {
+        "color": "#ffffff",
+        "warningMessage": ""
+      }
+    },
+    {
+      "index": 1,
+      "label": "",
+      "type": "OPTION",
+      "errorFlag": false,
+      "showDropdown": false,
+      "colorCoding": {
+        "color": "#ffffff",
+        "warningMessage": ""
+      }
+    }
+  ],
+  "notifications": [],
+  "fieldNameErrorMsg": ""
+}

@@ -1,0 +1,157 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/form/form-fields-list.vue has the expected html structure 1`] = `
+<b-form-stub>
+  <b-card-group-stub
+    deck="true"
+    tag="div"
+  >
+    <b-card-stub
+      bodytag="div"
+      class="border-0"
+      footertag="div"
+      header="section"
+      headertag="div"
+      nobody="true"
+      subtitletag="h6"
+      tag="div"
+      titletag="h4"
+    >
+      <b-list-group-stub
+        flush="true"
+        tag="div"
+      >
+        <b-list-group-item-stub
+          activeclass="active"
+          class="item border-0"
+          event="click"
+          exactactiveclass="active"
+          routertag="a"
+          tag="div"
+          target="_self"
+        >
+          <label>
+            <strong>
+              1. question
+            </strong>
+          </label>
+           
+          <div>
+            <b-form-input-stub
+              type="text"
+              value="answer"
+            />
+          </div>
+        </b-list-group-item-stub>
+        <b-list-group-item-stub
+          activeclass="active"
+          class="item border-0"
+          event="click"
+          exactactiveclass="active"
+          routertag="a"
+          tag="div"
+          target="_self"
+        >
+          <label>
+            <strong>
+              2. question
+            </strong>
+          </label>
+           
+          <div>
+            <b-form-radio-group-stub
+              buttonvariant="secondary"
+              options="Yes,No"
+            />
+          </div>
+        </b-list-group-item-stub>
+        <b-list-group-item-stub
+          activeclass="active"
+          class="item border-0"
+          event="click"
+          exactactiveclass="active"
+          routertag="a"
+          tag="div"
+          target="_self"
+        >
+          <label>
+            <strong>
+              3. question
+            </strong>
+          </label>
+           
+          <div>
+            <b-form-select-stub
+              options="first,second,third"
+              selectsize="0"
+              value="first"
+            />
+          </div>
+        </b-list-group-item-stub>
+        <b-list-group-item-stub
+          activeclass="active"
+          class="item border-0"
+          event="click"
+          exactactiveclass="active"
+          routertag="a"
+          tag="div"
+          target="_self"
+        >
+          <label>
+            <strong>
+              4. question
+            </strong>
+          </label>
+           
+          <div>
+            <datepicker-stub
+              format="MM/dd/yyyy"
+              inputclass="form-control"
+              language="[object Object]"
+              maximumview="year"
+              minimumview="day"
+              placeholder="Enter Date"
+              value="1519138199000"
+            />
+          </div>
+        </b-list-group-item-stub>
+      </b-list-group-stub>
+    </b-card-stub>
+  </b-card-group-stub>
+   
+  <b-row-stub
+    class="my-2"
+    tag="div"
+  >
+    <b-col-stub
+      tag="div"
+    >
+      <button-cmp-stub
+        class="w-100"
+        type="submit"
+        variant="primary"
+      >
+        Save
+      </button-cmp-stub>
+    </b-col-stub>
+     
+    <b-col-stub
+      tag="div"
+    >
+      <button-cmp-stub
+        variant="link"
+      >
+        Cancel
+      </button-cmp-stub>
+    </b-col-stub>
+     
+    <b-col-stub
+      col="true"
+      md="auto"
+      tag="div"
+    />
+  </b-row-stub>
+   
+  <formchangereasonmodal-stub />
+</b-form-stub>
+`;

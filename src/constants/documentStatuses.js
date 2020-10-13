@@ -1,0 +1,1 @@
+export default { REQUESTED_SIGNATURE: 'RequestedSignature', SIGNED_BY_PARTICIPANT: 'SignedByParticipant', SIGNED_BY_PI: 'SignedByPI', COPY_EMAIL_TO_PARTICIPANT: 'CopyEmailedToParticipant', UPLOADED: 'Uploaded' };

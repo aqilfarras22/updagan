@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="248" height="431" viewBox="0 0 248 431">
+    <defs>
+        <path id="b" d="M0 25.996C0 11.639 11.645 0 25.997 0H177.03c14.358 0 26.03 11.636 26.069 25.996l.962 350.407c.04 14.357-11.562 25.996-25.937 25.996H26.009C11.645 402.399 0 390.763 0 376.403V25.996z"/>
+        <filter id="a" width="125.5%" height="112.9%" x="-12.7%" y="-4%" filterUnits="objectBoundingBox">
+            <feOffset dy="10" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="7"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+        </filter>
+        <circle id="d" cx="158.476" cy="223.703" r="67.524"/>
+        <filter id="c" width="117.8%" height="117.8%" x="-8.9%" y="-8.9%" filterUnits="objectBoundingBox">
+            <feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="4"/>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.211163949 0"/>
+        </filter>
+        <linearGradient id="e" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#FFF"/>
+            <stop offset="100%" stop-color="#CCC"/>
+        </linearGradient>
+        <path id="f" d="M0 58.045h50.512V.55H0z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd" transform="translate(14 4)">
+        <use fill="#000" filter="url(#a)" xlink:href="#b"/>
+        <use fill="#4A4A4A" xlink:href="#b"/>
+        <path fill="#3D3D3D" d="M119.728 381.291c0 8.642-6.854 15.649-15.307 15.649-8.454 0-15.307-7.007-15.307-15.649s6.853-15.649 15.307-15.649c8.453 0 15.307 7.007 15.307 15.65"/>
+        <path fill="#08131F" d="M11.024 27.561h182.225v333.097H11.024z"/>
+        <rect width="39.75" height="39.75" x="24.805" y="40.423" fill="#FF4848" rx="10"/>
+        <rect width="39.75" height="39.75" x="80.846" y="40.423" fill="#51DD75" rx="10"/>
+        <rect width="39.75" height="39.75" x="137.805" y="40.423" fill="#1A5877" rx="10"/>
+        <rect width="39.75" height="39.75" x="24.805" y="305.927" fill="#FF4848" rx="10"/>
+        <rect width="39.75" height="39.75" x="80.846" y="305.927" fill="#F39C12" rx="10"/>
+        <rect width="39.75" height="39.75" x="137.805" y="305.927" fill="#1A5877" rx="10"/>
+        <rect width="39.75" height="39.75" x="24.805" y="93.707" fill="#1A5877" rx="10"/>
+        <rect width="39.75" height="39.75" x="80.846" y="93.707" fill="#00BAE0" rx="10"/>
+        <rect width="39.75" height="39.75" x="137.805" y="93.707" fill="#FF4848" rx="10"/>
+        <rect width="39.75" height="39.75" x="24.805" y="146.992" fill="#51DD75" rx="10"/>
+        <rect width="39.75" height="39.75" x="80.846" y="146.992" fill="#F39C12" rx="10"/>
+        <rect width="39.75" height="39.75" x="137.805" y="146.992" fill="#9B94FF" rx="10"/>
+        <rect width="39.75" height="39.75" x="24.805" y="201.195" fill="#00BAE0" rx="10"/>
+        <rect width="39.75" height="39.75" x="80.846" y="201.195" fill="#FF4848" rx="10"/>
+        <rect width="39.75" height="39.75" x="137.805" y="201.195" fill="#1A5877" rx="10"/>
+        <rect width="39.75" height="39.75" x="24.805" y="253.561" fill="#9B94FF" rx="10"/>
+        <rect width="39.75" height="39.75" x="80.846" y="253.561" fill="#51DD75" rx="10"/>
+        <rect width="39.75" height="39.75" x="137.805" y="253.561" fill="#F39C12" rx="10"/>
+        <use fill="#000" filter="url(#c)" xlink:href="#d"/>
+        <use fill="#08131F" xlink:href="#d"/>
+        <circle cx="158.476" cy="223.703" r="66.524" stroke="#CFD8DC" stroke-width="2"/>
+        <rect width="74.202" height="74.202" x="120.35" y="181.902" fill="url(#e)" rx="16"/>
+        <g transform="translate(132.293 190.17)">
+            <path fill="#83C6A8" d="M47.238 46.083L28.602 57.137a6.45 6.45 0 0 1-6.574.015L3.346 46.18c-2.037-1.197-3.294-3.412-3.3-5.813L0 18.34c-.005-2.401 1.243-4.623 3.275-5.828L21.91 1.457a6.45 6.45 0 0 1 6.574-.014l18.682 10.972c2.037 1.196 3.294 3.412 3.3 5.813l.046 22.027c.005 2.401-1.243 4.622-3.274 5.828"/>
+            <mask id="g" fill="#fff">
+                <use xlink:href="#f"/>
+            </mask>
+            <path fill="#FEFEFE" d="M40.182 41.243h3.384V30.75h-3.384zM5.687 34.095h3.366V23.62H5.687zM33.26 30.51h3.271V20.043H33.26zM19.432 34.103h3.242V23.586h-3.242zM29.651 28.86c-.004.982-.843 1.844-1.772 1.82-.867-.023-1.696-.89-1.712-1.79-.016-.968.827-1.876 1.747-1.881.939-.006 1.742.85 1.737 1.85M36.628 35.838c0 1.005-.816 1.863-1.743 1.834-.935-.03-1.774-.939-1.74-1.883.032-.914.844-1.743 1.73-1.768.95-.026 1.753.806 1.753 1.817M12.448 18.211c0-.911.807-1.761 1.697-1.79.92-.028 1.827.866 1.825 1.798-.002.893-.833 1.76-1.712 1.789-.949.03-1.81-.825-1.81-1.797M15.971 32.45c.002.86-.855 1.75-1.704 1.772a1.783 1.783 0 0 1-1.813-1.765c-.007-.97.855-1.833 1.803-1.802.85.027 1.712.93 1.714 1.794M41.836 16.447c.877-.029 1.73.777 1.788 1.69.057.903-.724 1.816-1.6 1.869-.845.05-1.83-.866-1.883-1.754-.05-.812.857-1.777 1.695-1.805M21.055 16.445c.893-.01 1.699.802 1.733 1.747.035.957-.714 1.802-1.635 1.844-.964.043-1.788-.794-1.78-1.81.007-1.002.733-1.771 1.682-1.781M12.458 39.454c.027-.988.875-1.777 1.85-1.72.91.053 1.684.9 1.658 1.813-.026.883-.893 1.75-1.748 1.747-.956-.004-1.786-.871-1.76-1.84M14.165 23.638c.934-.01 1.771.785 1.775 1.686.003.93-.784 1.718-1.73 1.73-.984.012-1.727-.704-1.751-1.687-.025-.966.719-1.719 1.706-1.73M41.885 23.64c.904 0 1.747.824 1.741 1.7a1.699 1.699 0 0 1-1.726 1.714c-.926 0-1.749-.799-1.758-1.707-.01-.92.794-1.706 1.743-1.706M22.717 39.526c.009 1.036-.661 1.74-1.661 1.745-.988.005-1.686-.714-1.682-1.733.004-1.07.64-1.73 1.67-1.734 1.026-.004 1.663.652 1.673 1.722" mask="url(#g)"/>
+        </g>
+        <text fill="#FFF" font-family="Roboto-Medium, Roboto" font-size="12" font-weight="400">
+            <tspan x="129.311" y="270">App Name</tspan>
+        </text>
+    </g>
+</svg>

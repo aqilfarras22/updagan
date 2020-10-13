@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components/form/form-fields-list.vue has the expected html structure 1`] = `
+<div>
+  <b-card-group-stub
+    class="border-top"
+    tag="div"
+  >
+    <b-card-stub
+      bodytag="div"
+      class="border-0"
+      footertag="div"
+      header="section"
+      headertag="div"
+      nobody="true"
+      subtitletag="h6"
+      tag="div"
+      titletag="h4"
+    >
+      <b-list-group-stub
+        flush="true"
+        tag="div"
+      >
+        <b-list-group-item-stub
+          activeclass="active"
+          class="item border-0 [object Object]"
+          event="click"
+          exactactiveclass="active"
+          routertag="a"
+          tag="div"
+          target="_self"
+        >
+          <!---->
+           
+          <dl>
+            <dt
+              class=""
+            >
+              
+              1. question
+            
+            </dt>
+             
+            <dd>
+              answer
+            </dd>
+          </dl>
+           
+          <button-cmp-stub
+            class="open-query"
+            variant="outline-primary"
+          >
+            Open a query
+          </button-cmp-stub>
+        </b-list-group-item-stub>
+        <b-list-group-item-stub
+          activeclass="active"
+          class="item border-0 [object Object]"
+          event="click"
+          exactactiveclass="active"
+          routertag="a"
+          tag="div"
+          target="_self"
+        >
+          <!---->
+           
+          <dl>
+            <dt
+              class=""
+            >
+              
+              2. question
+            
+            </dt>
+             
+            <dd>
+              <span>
+                02/20/2018
+              </span>
+            </dd>
+          </dl>
+           
+          <button-cmp-stub
+            class="open-query"
+            variant="outline-primary"
+          >
+            Open a query
+          </button-cmp-stub>
+        </b-list-group-item-stub>
+      </b-list-group-stub>
+    </b-card-stub>
+  </b-card-group-stub>
+</div>
+`;

@@ -1,0 +1,23 @@
+export default {
+  user: {
+    id: '',
+    firstName: '',
+    lastName: '',
+    licenseType: '',
+    name: '',
+    onBoarding: false,
+    otpVerified: false,
+    phoneNumber: '',
+    profileCompleted: false,
+    status: '',
+    profileImage: '',
+    studies: [],
+    userRole: '',
+    username: '',
+    workNumber: '',
+  },
+  token: '',
+  refreshToken: '',
+  clientId: '',
+  clientName: '',
+};

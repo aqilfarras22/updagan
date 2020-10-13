@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pages/study-participants/study-participant-activity.vue should has the expected html structure 1`] = `
+<b-container-stub
+  class="study-particip-activity-page pt-30"
+  fluid="true"
+  tag="div"
+>
+  <b-row-stub
+    tag="div"
+  >
+    <b-col-stub
+      cols="2"
+      tag="div"
+    >
+      <b
+        id="1"
+        name="Uniq 1"
+      >
+        ActivityInfoCmp
+      </b>
+       
+      <hr
+        class="mt-30 mb-30"
+      />
+       
+      <b>
+        ParticipantInfoCmp
+      </b>
+    </b-col-stub>
+     
+    <b-col-stub
+      tag="div"
+    >
+      <b-card-stub
+        bodytag="div"
+        footertag="div"
+        headertag="div"
+        subtitletag="h6"
+        tag="div"
+        titletag="h4"
+      >
+        <b
+          json="[object Object]"
+          readablekeys=""
+        >
+          JsonTreeCmp
+        </b>
+      </b-card-stub>
+    </b-col-stub>
+  </b-row-stub>
+</b-container-stub>
+`;

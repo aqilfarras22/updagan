@@ -1,0 +1,154 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pages/study-participants/study-participant-details.vue should has the expected html structure 1`] = `
+<b-container-stub
+  class="study-particip-details-block pt-30"
+  fluid="true"
+  tag="div"
+>
+  <b-row-stub
+    tag="div"
+  >
+    <b-col-stub
+      cols="2"
+      tag="div"
+    >
+      <b>
+        ParticipantInfoCmp
+      </b>
+    </b-col-stub>
+     
+    <b-col-stub
+      cols="10"
+      tag="div"
+    >
+      <div
+        class="mb-20"
+      >
+        <documentslist-stub />
+      </div>
+       
+      <!---->
+       
+      <!---->
+       
+      <b-card-stub
+        bodytag="div"
+        class="pt-10 mb-4"
+        footertag="div"
+        headertag="div"
+        nobody="true"
+        subtitletag="h6"
+        tag="div"
+        titletag="h4"
+      >
+        <b
+          fields="[object Object],[object Object]"
+          filterlabelmessage=""
+          filteroptions="[object Object]"
+          items="function () { [native code] }"
+          nogutters=""
+          noprovidersorting=""
+          printtotalformatter="function () { [native code] }"
+          showempty=""
+          showfilter=""
+          showtotal=""
+        >
+          TableComponentCmp
+        </b>
+      </b-card-stub>
+    </b-col-stub>
+  </b-row-stub>
+</b-container-stub>
+`;
+
+exports[`pages/study-participants/study-participant-details.vue should have all required initial data 1`] = `
+Array [
+  Object {
+    "key": "formName",
+    "label": "Form Name",
+    "sortable": true,
+  },
+  Object {
+    "key": "formDate",
+    "label": "Date",
+    "sortable": true,
+  },
+  Object {
+    "key": "noOfOpenQueries",
+    "label": "# Of Open Queries",
+    "sortable": true,
+  },
+  Object {
+    "key": "approvalStatus",
+    "label": "Approval Status",
+    "sortable": true,
+  },
+  Object {
+    "key": "verificationStatus",
+    "label": "Verification Status",
+    "sortable": true,
+  },
+]
+`;
+
+exports[`pages/study-participants/study-participant-details.vue should have all required initial data 2`] = `
+Array [
+  Object {
+    "text": "All",
+    "value": "",
+  },
+  Object {
+    "text": "Forms w/ open queries",
+    "value": "open",
+  },
+  Object {
+    "text": "Forms w/ closed queries",
+    "value": "closed",
+  },
+  Object {
+    "text": "Unverified",
+    "value": "unverified",
+  },
+  Object {
+    "text": "Verified",
+    "value": "verified",
+  },
+  Object {
+    "text": "Unapproved",
+    "value": "unapproved",
+  },
+  Object {
+    "text": "Approved",
+    "value": "approved",
+  },
+]
+`;
+
+exports[`pages/study-participants/study-participant-details.vue should have all required initial data 3`] = `
+Array [
+  Object {
+    "key": "name",
+    "label": "Data Name",
+    "sortable": true,
+  },
+  Object {
+    "key": "completedOn",
+    "label": "Completed On",
+    "sortable": true,
+  },
+]
+`;
+
+exports[`pages/study-participants/study-participant-details.vue should have all required initial data 4`] = `
+Array [
+  Object {
+    "text": "Filter",
+    "value": "",
+  },
+]
+`;
+
+exports[`pages/study-participants/study-participant-details.vue should have method formsPrintTotalFormatter which return required string 1`] = `"Forms: 3"`;
+
+exports[`pages/study-participants/study-participant-details.vue should have method reportedDataPrintTotalFormatter which return required string 1`] = `"Participant reported data: 3"`;

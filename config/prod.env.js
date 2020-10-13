@@ -1,0 +1,11 @@
+'use strict';
+const API_BASE_URL = process.env.API_BASE_URL ? JSON.stringify(process.env.API_BASE_URL) : '""';
+const API_ANALYTICS_BASE_URL = process.env.API_ANALYTICS_BASE_URL ? JSON.stringify(process.env.API_ANALYTICS_BASE_URL) : '""';
+const API_PARTICIPANT_WEB_BASE_URL = process.env.API_PARTICIPANT_WEB_BASE_URL ? JSON.stringify(process.env.API_PARTICIPANT_WEB_BASE_URL) : '';
+
+module.exports = {
+  VUE_APP_NODE_ENV: '"production"',
+  VUE_APP_API_BASE_URL: API_BASE_URL,
+  VUE_APP_API_ANALYTICS_BASE_URL: API_ANALYTICS_BASE_URL,
+  VUE_APP_API_PARTICIPANT_WEB_BASE_URL: API_PARTICIPANT_WEB_BASE_URL,
+};

@@ -1,0 +1,56 @@
+.custom-b-table {
+  .card-body {
+    padding: 0 !important;
+  }
+
+  .itemstotal {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .no-paddings {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  table {
+    font-size: 14px;
+    color: #666669;
+    margin-bottom: 0;
+
+    th {
+      font-size: 10px;
+      text-transform: uppercase;
+      border-bottom-width: 1px !important;
+      height: 2.86rem;
+      vertical-align: middle;
+      padding: 0.5rem;
+
+      &:first-child {
+        padding-left: 20px;
+      }
+
+      &.sorting:before,
+      &.sorting:after {
+        padding: 0 13px 0 0;
+        top: 3px;
+        line-height: 360% !important;
+        color: #000;
+      }
+
+      &.sorting:before {
+        padding-right: 15px;
+      }
+    }
+
+    td {
+      padding: 0.5rem;
+      height: 3.6rem;
+      vertical-align: middle;
+
+      &:first-child {
+        padding-left: 20px;
+      }
+    }
+  }
+}

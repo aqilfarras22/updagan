@@ -1,0 +1,36 @@
+{
+  "name": "formDateTime",
+  "fieldName": "",
+  "fieldType": "QUESTION",
+  "body": "",
+  "required": false,
+  "collectDate": true,
+  "collectTime": false,
+  "mode": "new",
+  "notifications": [],
+  "fieldNameErrorMsg": "",
+  "dateField": {
+    "collect": "MDY",
+    "format": "MDY",
+    "validation": {
+      "minFlag": true,
+      "min": {
+        "value": "",
+        "conf": {
+          "month": "01",
+          "date": 1,
+          "year": 1990
+        }
+      },
+      "maxFlag": false,
+      "max": {
+        "value": "",
+        "conf": {
+          "month": "01",
+          "date": 1,
+          "year": 2020
+        }
+      }
+    }
+  }
+}

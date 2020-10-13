@@ -1,0 +1,52 @@
+[
+    {
+        "name" : "Header",
+        "id" : "formHeader",
+        "icon": "fa fa-header"
+    },
+    {
+        "name" : "Paragraph",
+        "id" : "formParagraph",
+        "icon": "fa fa-paragraph"
+    },
+    {
+        "name" : "Drop down",
+        "id" : "formDropdown",
+        "icon": "fa fa-caret-square-o-down"
+    },
+    {
+        "name" : "Check box",
+        "id" : "formCheckbox",
+        "icon": "fa fa-check-square"
+    },
+    {
+        "name" : "Single choice",
+        "id" : "formSinglechoice",
+        "icon": "fa fa-dot-circle-o"
+    },
+    {
+        "name" : "Scale",
+        "id" : "formScale",
+        "icon": "fa fa-arrows-h"
+    },
+    {
+        "name" : "Date/Time",
+        "id" : "formDateTime",
+        "icon": "fa fa-calendar-check-o"
+    },
+    {
+        "name" : "Text/Numeric",
+        "id" : "formTextNumeric",
+        "icon": "fa fa-font"
+    },
+    {
+        "name" : "Text area",
+        "id" : "formTextArea",
+        "icon": "fa fa-font"
+    },
+    {
+        "name" : "Table",
+        "id" : "formTable",
+        "icon": "fa fa-table"
+    }
+]

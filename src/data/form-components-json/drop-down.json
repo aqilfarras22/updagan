@@ -1,0 +1,24 @@
+ {
+   "name": "formDropdown",
+   "fieldName": "",
+   "body": "",
+   "fieldType": "QUESTION",
+   "required": false,
+   "otherOptionField": false,
+   "mode": "new",
+   "options": [{
+       "index": 0,
+       "label": "",
+       "type": "OPTION",
+       "errorFlag": false
+     },
+     {
+       "index": 1,
+       "type": "OPTION",
+       "label": "",
+       "errorFlag": false
+     }
+   ],
+   "notifications": [],
+   "fieldNameErrorMsg": ""
+ }

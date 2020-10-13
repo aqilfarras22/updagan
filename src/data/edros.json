@@ -1,0 +1,607 @@
+[
+  {
+    "selected": false,
+    "comingSoon": false,
+    "sequence": 2,
+    "key": "FingerTapping",
+    "schemaIdentifier": "FingerTapping",
+    "title": "Tapping Speed",
+    "shortDescription": "Measures finger tapping speed",
+    "icon": "static/img/icn-tapping-speed.svg",
+    "category": "Motor activities",
+    "description": "In the tapping task the user rapidly alternates between tapping two targets on the touch screen. The resulting touch data can be used to assess basic motor capabilities such as speed, accuracy, and rhythm.",
+    "licenceInfo": "Copyright (c) 2015, Apple Inc. All rights reserved.<br><br> Redistribution and use in source and binary forms, with or without modification,are permitted provided that the following conditions are met: <br><br> 1.  Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.<br><br> 2.  Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution. <br><br> 3.  Neither the name of the copyright holder(s) nor the names of any contributors may be used to endorse or promote products derived from this software without specific prior written permission. No license is granted to the trademarks of the copyright holders even if such marks are included in this software.<br><br> THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS 'AS IS' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.",
+    "configurationSettings": [
+      {
+        "name": "Duration",
+        "details": "10 seconds"
+      }
+    ],
+    "dataCollected": [
+      "Touch activity"
+    ],
+    "screenshots": [
+      "static/img/tapping-speed/screen1.png",
+      "static/img/tapping-speed/screen2.png",
+      "static/img/tapping-speed/screen3.png",
+      "static/img/tapping-speed/screen4.png"
+    ],
+    "graphs": [
+      "static/img/activities/FingerTapping_1.png",
+      "static/img/activities/FingerTapping_2.png"
+    ]
+  },
+  {
+    "selected": false,
+    "comingSoon": true,
+    "sequence": 3,
+    "key": "FitnessTask",
+    "schemaIdentifier": "FitnessTask",
+    "title": "Fitness",
+    "shortDescription": "Monitors heart rate and measures how far you can walk in six minutes",
+    "icon": "static/img/icn-fitness.svg",
+    "category": "Fitness",
+    "description": "In the fitness task the user walks for a specified duration. Sensor data can include accelerometer, device motion, pedometer, location, and heart rate data where available. Toward the end of the walk, if heart rate data is available, the user is asked to sit down and rest for a period. Data collection continues during the rest period.",
+    "licenceInfo": "Copyright (c) 2015, Apple Inc. All rights reserved.<br><br> Redistribution and use in source and binary forms, with or without modification,are permitted provided that the following conditions are met: <br><br> 1.  Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.<br><br> 2.  Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution. <br><br> 3.  Neither the name of the copyright holder(s) nor the names of any contributors may be used to endorse or promote products derived from this software without specific prior written permission. No license is granted to the trademarks of the copyright holders even if such marks are included in this software.<br><br> THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS 'AS IS' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.",
+    "configurationSettings": [
+      {
+        "name": "Walk Duration",
+        "details": "5 minutes"
+      },
+      {
+        "name": "Rest Duration",
+        "details": "1 minute/60 seconds"
+      }
+    ],
+    "dataCollected": [
+      "Device motion",
+      "Pedometer",
+      "Location",
+      "Heart rate"
+    ],
+    "screenshots": [
+      "static/img/fitness/screen1.png",
+      "static/img/fitness/screen2.png",
+      "static/img/fitness/screen3.png",
+      "static/img/fitness/screen4.png",
+      "static/img/fitness/screen5.png",
+      "static/img/fitness/screen6.png"
+    ],
+    "graphs": [
+      "static/img/activities/FitnessTask_1.png",
+      "static/img/activities/FitnessTask_2.png"
+    ]
+  },
+  {
+    "selected": false,
+    "comingSoon": false,
+    "sequence": 4,
+    "key": "TimeWalk",
+    "schemaIdentifier": "TimeWalk",
+    "title": "Timed Walk",
+    "shortDescription": "Measures lower extremity function",
+    "icon": "static/img/icn-gait-and-balance.svg",
+    "category": "Fitness",
+    "description": "This graph shows the evolution of your Timed Walk activity score. The Timed Walk activity is a quantitative measure of lower extremity function.",
+    "licenceInfo": "Copyright (c) 2015, Shazino SAS. All rights reserved.<br><br> Redistribution and use in source and binary forms, with or without modification,are permitted provided that the following conditions are met: <br><br> 1.  Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.<br><br> 2.  Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution. <br><br> 3.  Neither the name of the copyright holder(s) nor the names of any contributors may be used to endorse or promote products derived from this software without specific prior written permission. No license is granted to the trademarks of the copyright holders even if such marks are included in this software.<br><br> THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS 'AS IS' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.",
+    "configurationSettings": [
+      {
+        "name": "Distance",
+        "details": "100 m"
+      },
+      {
+        "name": "Time Limit",
+        "details": "72 seconds"
+      },
+      {
+        "name": "Rest Duration",
+        "details": "1 minute/60 seconds"
+      }
+    ],
+    "dataCollected": [
+      "Device motion",
+      "Pedometer",
+      "Location"
+    ],
+    "screenshots": [
+      "static/img/timed-walk/screen1.png",
+      "static/img/timed-walk/screen2.png",
+      "static/img/timed-walk/screen3.png",
+      "static/img/timed-walk/screen4.png",
+      "static/img/timed-walk/screen5.png",
+      "static/img/timed-walk/screen6.png",
+      "static/img/timed-walk/screen7.png"
+    ],
+    "graphs": [
+      "static/img/activities/TimeWalk_1.png",
+      "static/img/activities/TimeWalk_2.png"
+    ]
+  },
+  {
+    "selected": false,
+    "comingSoon": false,
+    "sequence": 5,
+    "key": "SpatialMemory",
+    "schemaIdentifier": "SpatialMemory",
+    "title": "Spatial Memory",
+    "shortDescription": "Measures short-term spatial memory",
+    "icon": "static/img/icn-spatial-memory.svg",
+    "category": "Cognition",
+    "description": "In the spatial memory task the user is asked to observe and then recall pattern sequences of increasing length in a game-like environment. The task collects data that can be used to assess visuospatial memory and executive function. The span (that is, the length of the pattern  sequence) is automatically varied during the task, increasing after successful completion of a sequence, and decreasing after failures, in the range from 2 to 20. The speed of sequence playback is set at 0.5 seconds.The game finishes when the task have been completed, or the user has 2 failures in a row.Theresultscollectedarescoresderivedfromthegame, thedetailsofthegame, andthetouchinputsmadebytheuser.",
+    "licenceInfo": "Copyright (c) 2015, Apple Inc. All rights reserved.<br><br> Redistribution and use in source and binary forms, with or without modification,are permitted provided that the following conditions are met: <br><br> 1.  Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.<br><br> 2.  Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution. <br><br> 3.  Neither the name of the copyright holder(s) nor the names of any contributors may be used to endorse or promote products derived from this software without specific prior written permission. No license is granted to the trademarks of the copyright holders even if such marks are included in this software.<br><br> THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS 'AS IS' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.",
+    "configurationSettings": [
+      {
+        "name": "Initial Span",
+        "details": "2"
+      },
+      {
+        "name": "Minimum Span",
+        "details": "2"
+      },
+      {
+        "name": "Maximum Span",
+        "details": "20"
+      },
+      {
+        "name": "Play Speed",
+        "details": "0.5 seconds"
+      },
+      {
+        "name": "No of Tests",
+        "details": "1"
+      },
+      {
+        "name": "Maximum Number of Failures",
+        "details": "2"
+      },
+      {
+        "name": "Reversal",
+        "details": "False"
+      }
+    ],
+    "dataCollected": [
+      "Touch activity",
+      "Correct answer",
+      "Actual sequences"
+    ],
+    "screenshots": [
+      "static/img/spatial-memory/screen1.png",
+      "static/img/spatial-memory/screen2.png",
+      "static/img/spatial-memory/screen3.png",
+      "static/img/spatial-memory/screen4.png",
+      "static/img/spatial-memory/screen5.png",
+      "static/img/spatial-memory/screen6.png",
+      "static/img/spatial-memory/screen7.png"
+    ],
+    "graphs": [
+      "static/img/activities/SpatialMemory_1.png",
+      "static/img/activities/SpatialMemory_2.png"
+    ]
+  },
+  {
+    "selected": false,
+    "comingSoon": false,
+    "sequence": 6,
+    "key": "NineHolePeg",
+    "schemaIdentifier": "NineHolePeg",
+    "title": "9-Hole Peg",
+    "shortDescription": "Evaluates hand dexterity",
+    "icon": "static/img/icn-hole-peg.svg",
+    "category": "Hand dexterity",
+    "description": "This graph shows the evolution of your 9-Hole Peg activity score. The 9-Hole Peg activity is a quantitative measure of upper extremity (arm and hand) function.",
+    "licenceInfo": "Copyright (c) 2015, Shazino SAS. All rights reserved.<br><br> Redistribution and use in source and binary forms, with or without modification,are permitted provided that the following conditions are met: <br><br> 1.  Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.<br><br> 2.  Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution. <br><br> 3.  Neither the name of the copyright holder(s) nor the names of any contributors may be used to endorse or promote products derived from this software without specific prior written permission. No license is granted to the trademarks of the copyright holders even if such marks are included in this software.<br><br> THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS 'AS IS' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.",
+    "configurationSettings": [
+      {
+        "name": "Number of Pegs",
+        "details": "1"
+      },
+      {
+        "name": "Peg Rotation",
+        "details": "False"
+      }
+    ],
+    "dataCollected": [
+      "Completion time",
+      "Move distance"
+    ],
+    "screenshots": [
+      "static/img/hole-peg/screen1.png",
+      "static/img/hole-peg/screen2.png"
+    ],
+    "graphs": [
+      "static/img/activities/NineHolePeg_1.png",
+      "static/img/activities/NineHolePeg_2.png"
+    ]
+  },
+  {
+    "selected": false,
+    "comingSoon": false,
+    "sequence": 7,
+    "key": "Pasat",
+    "schemaIdentifier": "Pasat",
+    "title": "Paced Visual Serial Addition Test (PVSAT)",
+    "shortDescription": "Measures visual information processing speed",
+    "icon": "static/img/pvsat.svg",
+    "category": "Cognition",
+    "description": "This graph shows the evolution of your PVSAT score. The PVSAT activity is a measure of cognitive function that specifically assesses auditory information processing speed and flexibility, as well as calculation ability.",
+    "licenceInfo": "Copyright (c) 2015, Shazino SAS. All rights reserved.<br><br> Redistribution and use in source and binary forms, with or without modification,are permitted provided that the following conditions are met: <br><br> 1.  Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.<br><br> 2.  Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution. <br><br> 3.  Neither the name of the copyright holder(s) nor the names of any contributors may be used to endorse or promote products derived from this software without specific prior written permission. No license is granted to the trademarks of the copyright holders even if such marks are included in this software.<br><br> THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS 'AS IS' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.",
+    "configurationSettings": [
+      {
+        "name": "Presentation Mode",
+        "details": "Auditory and Visual"
+      },
+      {
+        "name": "InterStimulus Interval",
+        "details": "3 seconds"
+      },
+      {
+        "name": "Stimulus Duration",
+        "details": "2 seconds"
+      },
+      {
+        "name": "Series Length",
+        "details": "10"
+      }
+    ],
+    "dataCollected": [
+      "Addition results from user"
+    ],
+    "screenshots": [
+      "static/img/PVSAT/screen1.png",
+      "static/img/PVSAT/screen2.png",
+      "static/img/PVSAT/screen3.png",
+      "static/img/PVSAT/screen4.png",
+      "static/img/PVSAT/screen5.png"
+    ],
+    "graphs": [
+      "static/img/activities/Pasat_1.png",
+      "static/img/activities/Pasat_2.png"
+    ]
+  },
+  {
+    "selected": false,
+    "comingSoon": true,
+    "sequence": 9,
+    "key": "ReactionTime",
+    "schemaIdentifier": "ReactionTime",
+    "title": "Reaction Time",
+    "shortDescription": "Evaluates the time it takes to respond to a visual cue",
+    "icon": "static/img/reaction-time.svg",
+    "category": "Cognition",
+    "description": "In the reaction time task, the user is asked to shake the device in response to a visual clue on the device’s screen. The task is divided into a few attempts (you can decide the number of attempts). To complete an attempt in a task, the user must shake or move the device with an acceleration that is greater than the value of the thresholdAcceleration property within the given time. The task finishes when the user successfully completes all the attempts as instructed in the task. Use this task to evaluate a user’s response to the stimulus and calculate their reaction time.",
+    "licenceInfo": "Copyright (c) 2015, James Cox. All rights reserved.<br><br> Redistribution and use in source and binary forms, with or without modification,are permitted provided that the following conditions are met: <br><br> 1.  Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.<br><br> 2.  Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution. <br><br> 3.  Neither the name of the copyright holder(s) nor the names of any contributors may be used to endorse or promote products derived from this software without specific prior written permission. No license is granted to the trademarks of the copyright holders even if such marks are included in this software.<br><br> THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS 'AS IS' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.",
+    "configurationSettings": [
+      {
+        "name": "Steps Per Leg",
+        "details": "25 steps"
+      },
+      {
+        "name": "Rest Duration",
+        "details": "15 seconds"
+      }
+    ],
+    "dataCollected": [
+      "Device motion"
+    ],
+    "screenshots": [
+      "static/img/reaction-time/screen1.png",
+      "static/img/reaction-time/screen2.png",
+      "static/img/reaction-time/screen3.png",
+      "static/img/reaction-time/screen4.png"
+    ],
+    "graphs": []
+  },
+  {
+    "selected": false,
+    "comingSoon": true,
+    "sequence": 11,
+    "key": "ToneAudioMetry",
+    "schemaIdentifier": "ToneAudioMetry",
+    "title": "Tone Audiometry",
+    "shortDescription": "Measures ability to hear different sounds",
+    "icon": "static/img/tone-audiometry.svg",
+    "category": "Audio",
+    "description": "In the tone audiometry task, users are asked to listen to a series of tones (using headphones connected to the device running the task) and to tap the button on the screen when they hear each tone. These tones are of different audio frequencies, playing on different channels (left and right), with the volume being progressively increased until the user taps the button. A tone audiometry task measures different properties of a user’s hearing ability, based on their reaction to a wide range of frequencies. Data collected in this task consists of audio signal amplitude for specific frequencies and channels.",
+    "licenceInfo": "Copyright (c) 2015, Shazino SAS. All rights reserved.<br><br> Redistribution and use in source and binary forms, with or without modification,are permitted provided that the following conditions are met: <br><br> 1.  Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.<br><br> 2.  Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution. <br><br> 3.  Neither the name of the copyright holder(s) nor the names of any contributors may be used to endorse or promote products derived from this software without specific prior written permission. No license is granted to the trademarks of the copyright holders even if such marks are included in this software.<br><br> THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS 'AS IS' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.",
+    "configurationSettings": [
+      {
+        "name": "Steps Per Leg",
+        "details": "25 steps"
+      },
+      {
+        "name": "Rest Duration",
+        "details": "15 seconds"
+      }
+    ],
+    "dataCollected": [
+      "Minimum amplitude for the user to recognize the sound"
+    ],
+    "screenshots": [
+      "static/img/tone-audiometry/screen1.png",
+      "static/img/tone-audiometry/screen2.png",
+      "static/img/tone-audiometry/screen3.png",
+      "static/img/tone-audiometry/screen4.png",
+      "static/img/tone-audiometry/screen5.png",
+      "static/img/tone-audiometry/screen6.png"
+    ],
+    "graphs": []
+  },
+  {
+    "selected": false,
+    "comingSoon": false,
+    "sequence": 1,
+    "key": "GaitAndBalance",
+    "schemaIdentifier": "GaitAndBalance",
+    "title": "Gait and Balance",
+    "shortDescription": "Measures gait and balance as you walk and stand still",
+    "icon": "static/img/icn-gait-and-balance.svg",
+    "category": "Motor activities",
+    "description": "This graph shows the evolution of your Gait & Balance activity. The Gait & Balance activity is a quantitative measure of lower extremity function.",
+    "licenceInfo": "Copyright (c) 2015, Apple Inc. All rights reserved.<br><br> Redistribution and use in source and binary forms, with or without modification,are permitted provided that the following conditions are met: <br><br> 1.  Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.<br><br> 2.  Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution. <br><br> 3.  Neither the name of the copyright holder(s) nor the names of any contributors may be used to endorse or promote products derived from this software without specific prior written permission. No license is granted to the trademarks of the copyright holders even if such marks are included in this software.<br><br> THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS 'AS IS' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.",
+    "configurationSettings": [
+      {
+        "name": "Steps Per Leg",
+        "details": "25 steps"
+      },
+      {
+        "name": "Rest Duration",
+        "details": "15 seconds"
+      }
+    ],
+    "dataCollected": [
+      "Device motion",
+      "Pedometer"
+    ],
+    "screenshots": [
+      "static/img/gait-and-balance/screen1.png",
+      "static/img/gait-and-balance/screen2.png",
+      "static/img/gait-and-balance/screen3.png",
+      "static/img/gait-and-balance/screen4.png",
+      "static/img/gait-and-balance/screen5.png",
+      "static/img/gait-and-balance/screen6.png",
+      "static/img/gait-and-balance/screen7.png"
+    ],
+    "graphs": []
+  },
+  {
+    "selected": false,
+    "comingSoon": true,
+    "sequence": 8,
+    "key": "TowerOfHanoi",
+    "schemaIdentifier": "TowerOfHanoi",
+    "title": "Tower of Hanoi",
+    "shortDescription": "Evaluates puzzle solving skills",
+    "icon": "static/img/toh.svg",
+    "category": "Cognition",
+    "description": "In the Tower of Hanoi task, the user is asked to solve the classic Tower of Hanoi puzzle in a minimum number of moves. To solve the puzzle, the user must move the entire stack to the highlighted platform in as few moves as possible. This task measures the user’s problem solving skills. A Tower of Hanoi task finishes when the user completes the puzzle correctly or concedes that they cannot solve the puzzle. Data collected by this task is in the form of an ORKTowerOfHanoiResult object. It contains every move taken by the user and indicates whether the puzzle was successfully completed or not.",
+    "licenceInfo": "Copyright (c) 2015, James Cox. All rights reserved.<br><br> Redistribution and use in source and binary forms, with or without modification,are permitted provided that the following conditions are met: <br><br> 1.  Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.<br><br> 2.  Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution. <br><br> 3.  Neither the name of the copyright holder(s) nor the names of any contributors may be used to endorse or promote products derived from this software without specific prior written permission. No license is granted to the trademarks of the copyright holders even if such marks are included in this software.<br><br> THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS 'AS IS' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.",
+    "configurationSettings": [
+      {
+        "name": "Number of Disks",
+        "details": "3"
+      }
+    ],
+    "dataCollected": [
+      "Every move taken by the user"
+    ],
+    "screenshots": [
+      "static/img/toh/screen1.png",
+      "static/img/toh/screen2.png",
+      "static/img/toh/screen3.png",
+      "static/img/toh/screen4.png"
+    ],
+    "graphs": []
+  },
+  {
+    "selected": false,
+    "comingSoon": true,
+    "sequence": 10,
+    "key": "SustainedPhonation",
+    "schemaIdentifier": "SustainedPhonation",
+    "title": "Sustained Phonation",
+    "shortDescription": "Evaluates voice by using the phone’s microphone",
+    "icon": "static/img/icn-sustained-phonation.svg",
+    "category": "Voice",
+    "description": "In the audio task, the user makes a sustained sound, and an audio recording is made. Analysis of the audio data is not included in the ResearchKit framework, but might naturally involve looking at the power spectrum and how it relates to the ability to produce certain sounds. The ResearchKit framework uses the AVFoundation framework to collect this data and to present volume indication during recording. No data analysis is done by ResearchKit; you can define your analysis on this task according to your own requirements. ",
+    "licenceInfo": "",
+    "configurationSettings": [
+      {
+        "name": "Steps Per Leg",
+        "details": "25 steps"
+      },
+      {
+        "name": "Rest Duration",
+        "details": "15 seconds"
+      }
+    ],
+    "dataCollected": [
+      "Uncompressed audio"
+    ],
+    "screenshots": [
+      "static/img/sustained-phonation/screen1.png",
+      "static/img/sustained-phonation/screen2.png",
+      "static/img/sustained-phonation/screen3.png",
+      "static/img/sustained-phonation/screen4.png",
+      "static/img/sustained-phonation/screen5.png"
+    ],
+    "graphs": []
+  },
+  {
+    "selected": false,
+    "comingSoon": false,
+    "sequence": 12,
+    "key": "MirSpirometer",
+    "schemaIdentifier": "MirSpirometer",
+    "title": "Forced Spirometry",
+    "shortDescription": "Measures lung function with Spirobank Smart",
+    "icon": "static/img/spirometer.png",
+    "category": "Lung function",
+    "description": "This integration requires MIR’s Spirobank Smart spirometer, which allows for the measurement of forced vital capacity. The eDRO will walk your participant’s through the device connection process and coach them through the measurement process.",
+    "licenceInfo": "",
+    "configurationSettings": [
+      {
+        "name": "Expected user expiration",
+        "details": "Long"
+      },
+      {
+        "name": "Maneuver is repeated",
+        "details": "5 times"
+      }
+    ],
+    "dataCollected": [
+      "FEV1",
+      "PEF",
+      "FVC",
+      "FEV1/FVC ratio",
+      "FEV6",
+      "FEF2575"
+    ],
+    "screenshots": [
+      "static/img/mir-spirometer/screen1.png",
+      "static/img/mir-spirometer/screen2.png",
+      "static/img/mir-spirometer/screen3.png",
+      "static/img/mir-spirometer/screen4.png",
+      "static/img/mir-spirometer/screen5.png",
+      "static/img/mir-spirometer/screen6.png"
+    ],
+    "graphs": [
+      "static/img/activities/mirSpirometer_1.png",
+      "static/img/activities/mirSpirometer_2.png"
+    ]
+  },
+  {
+    "selected": false,
+    "comingSoon": false,
+    "sequence": 13,
+    "key": "PefManeuver",
+    "schemaIdentifier": "PefManeuver",
+    "title": "PEF Maneuver",
+    "shortDescription": "Measures Peak Flow and FEV1 with Spirobank Smart",
+    "icon": "static/img/spirometer.png",
+    "category": "Lung function",
+    "description": "This integration requires MIR’s Spirobank Smart spirometer, which allows for the measurement of Peak Flow and FEV1. The eDRO will walk your participant’s through the device connection process and coach them through the measurement process.",
+    "licenceInfo": "",
+    "configurationSettings": [
+      {
+        "name": "Expected user expiration",
+        "details": "Short"
+      },
+      {
+        "name": "Maneuver is repeated",
+        "details": "3 times"
+      }
+    ],
+    "dataCollected": [
+      "FEV1",
+      "PEF",
+      "Extrapolated Volume",
+      "Time to reach Peak Flow"
+    ],
+    "screenshots": [
+      "static/img/mir-spirometer/screen1.png",
+      "static/img/mir-spirometer/screen2.png",
+      "static/img/mir-spirometer/screen3.png",
+      "static/img/mir-spirometer/screen4.png",
+      "static/img/mir-spirometer/screen5.png",
+      "static/img/mir-spirometer/screen6.png"
+    ],
+    "graphs": []
+  },
+  {
+    "selected": false,
+    "comingSoon": false,
+    "sequence": 14,
+    "key": "VisualAcuityExam",
+    "schemaIdentifier": "VisualAcuityExam",
+    "title": "Visual Acuity Exam",
+    "shortDescription": "Evaluates Visual Acuity by performing a Landolt C exam",
+    "icon": "static/img/icn-visual-acuity-exam.svg",
+    "category": "Ophthalmology",
+    "description": "In the Visual Acuity Exam, the user is presented with a series of Landolt C and is asked to identify where the gap in the C is. If the user answers correctly, the size of the C will continue to decrease. The exam is concluded when the user fails twice consecutively. Each eye is tested individually.",
+    "licenceInfo": "",
+    "configurationSettings": [
+      {
+        "details": "13 intervals"
+      },
+      {
+        "details": "Exam concludes on two consecutive fails"
+      }
+    ],
+    "dataCollected": [
+      "Results in Visual Acuity Rating (VAR)"
+    ],
+    "screenshots": [
+      "static/img/visual-acuity-exam/screen1.png",
+      "static/img/visual-acuity-exam/screen2.png",
+      "static/img/visual-acuity-exam/screen3.png",
+      "static/img/visual-acuity-exam/screen4.png",
+      "static/img/visual-acuity-exam/screen5.png",
+      "static/img/visual-acuity-exam/screen6.png"
+    ],
+    "graphs": [
+      "static/img/activities/FingerTapping_1.png",
+      "static/img/activities/FingerTapping_2.png"
+    ]
+  },
+  {
+    "selected": false,
+    "comingSoon": false,
+    "sequence": 15,
+    "key": "ContrastAcuityExam",
+    "schemaIdentifier": "ContrastAcuityExam",
+    "title": "Contrast Acuity Exam",
+    "shortDescription": "Evaluates Contrast Visual Acuity by performing a Landolt C exam",
+    "icon": "static/img/icn-contrast-acuity-exam.svg",
+    "category": "Ophthalmology",
+    "description": "In the Contrast Acuity Exam, the user is presented with a series of Landolt C and is asked to identify where the gap in the C is. If the user answers correctly, the opacity of the C will continue to decrease. The exam is concluded when the user fails twice consecutively. Each eye is tested individually.",
+    "licenceInfo": "",
+    "configurationSettings": [
+      {
+        "details": "13 intervals"
+      },
+      {
+        "details": "Exam concludes on two consecutive fails"
+      }
+    ],
+    "dataCollected": [
+      "Results in Visual Acuity Rating (VAR)"
+    ],
+    "screenshots": [
+      "static/img/contrast-acuity-exam/screen1.png",
+      "static/img/contrast-acuity-exam/screen2.png",
+      "static/img/contrast-acuity-exam/screen3.png",
+      "static/img/contrast-acuity-exam/screen4.png",
+      "static/img/contrast-acuity-exam/screen5.png",
+      "static/img/contrast-acuity-exam/screen6.png"
+    ],
+    "graphs": [
+      "static/img/activities/FingerTapping_1.png",
+      "static/img/activities/FingerTapping_2.png"
+    ]
+  },
+  {
+    "selected": false,
+    "comingSoon": false,
+    "sequence": 16,
+    "key": "FacialVideoAnalysis",
+    "schemaIdentifier": "FacialVideoAnalysis",
+    "title": "Facial Video Analysis",
+    "shortDescription": "Video capture of facial movements and speech",
+    "icon": "static/img/icn-facial-video.svg",
+    "category": "Speech",
+    "description": "Speech Recognition: Microphone, Speech-in-noise: Microphone",
+    "licenceInfo": "",
+    "configurationSettings": [
+     
+    ],
+    "dataCollected": [
+      
+    ],
+    "screenshots": [
+      "static/img/facial-video-analysis/screen1.png"
+    ],
+    "graphs": [
+      
+    ]
+  }
+]

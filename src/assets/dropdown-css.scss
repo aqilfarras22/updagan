@@ -1,0 +1,85 @@
+.change-caret-icon {
+  .dropdown-toggle::after {
+    color: #4c8ce4;
+    position: absolute;
+    top: 12px;
+    right: 2px;
+  }
+  .btn {
+    &.btn-primary {
+      background-color: #fff;
+      border: none;
+      color: #666769;
+      padding: 0px;
+      padding-left: 5px;
+      width: 160px;
+      text-align: left;
+      position: relative;
+    }
+    &.btn-primary.dropdown-toggle:focus {
+      box-shadow: none;;
+    }
+  }
+  .dropdown-menu {
+    top: 0px !important;
+    border: none;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.31);
+    max-height: 150px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    z-index: 99;
+    width: 160px;
+    li {
+      padding-left: 15px;
+      font-size: 12px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      margin-top: 5px;
+      a {
+        color: #000000;
+      }
+      &.active {
+        font-weight: 800;
+        background-color: #EFEFEF;
+      }
+    }
+    li:hover {
+      a {
+        text-decoration: none;
+      }
+      background-color: #EFEFEF;
+    }
+    &.scrollbar {
+      //Scrollbar CSS for Edge
+
+
+      //Scrollbar CSS for Mozilla
+      overflow-y: scroll;
+      scrollbar-color:  #c4c4c4 #fff; /* thumb and track color */
+      scrollbar-width: thin;
+
+      //Below is the scrollbar css for Chrome
+
+      &::-webkit-scrollbar {
+          width: 6px;
+          background-color: #fff;
+      }
+      &::-webkit-scrollbar-thumb {
+          background-color: #EFEFEF;
+          border-radius: 2px;
+      }
+      &::-webkit-scrollbar-track {
+        //-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+        background-color: #fff;
+      }
+    }
+    .loader {
+      font-size: 12px;
+      font-style: italic;
+      opacity: 0.5;
+      text-align: center;
+      display: inline-block;
+      width: 100%;
+    }
+  }
+}

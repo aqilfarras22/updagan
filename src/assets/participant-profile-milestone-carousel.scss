@@ -1,0 +1,532 @@
+//SLIDER CSSS
+.slick-slider {
+  position:relative;
+  display:block;
+  -webkit-box-sizing:border-box;
+  box-sizing:border-box;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
+  -webkit-touch-callout:none;
+  -khtml-user-select:none;
+  -ms-touch-action:pan-y;
+  touch-action:pan-y;
+  -webkit-tap-highlight-color:transparent;
+  //ARROWS (PREVIOUS and NEXT)
+  .slick-prev,
+  .slick-next {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 25%;
+    display: block;
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+    z-index: 1;
+  }
+  .slick-prev:hover,
+  .slick-prev:focus,
+  .slick-next:hover,
+  .slick-next:focus {
+    color: transparent;
+    outline: none;
+    background: transparent;
+  }
+  .slick-prev:hover:before,
+  .slick-prev:focus:before,
+  .slick-next:hover:before,
+  .slick-next:focus:before {
+    opacity: 1;
+    color: #4c8ce4;
+  }
+
+  .slick-prev.slick-disabled:before,
+  .slick-next.slick-disabled:before {
+    opacity: 0.25;
+  }
+
+  .slick-prev.slick-disabled,
+  .slick-next.slick-disabled {
+    left: -2000px;
+  }
+
+  .slick-prev:before,
+  .slick-next:before {
+    font: normal normal normal 40px/1 FontAwesome;
+    line-height: 1;
+    /* opacity: 0.75; */
+    color: #1e8fe1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .slick-prev {
+    left: 0px;
+  }
+  [dir='rtl'] .slick-prev {
+    right: -25px;
+    left: auto;
+  }
+  .slick-prev:before {
+    content: '\f104';
+  }
+  .slick-next {
+    right: 0px;
+  }
+  [dir='rtl'] .slick-next {
+    right: auto;
+    left: -25px;
+  }
+  .slick-next:before {
+    content: '\f105';
+  }
+  //ARROWS END
+
+  .slick-list {
+    position:relative;
+    display:block;
+    overflow:hidden;
+    margin:0;
+    padding:0;
+
+    .slick-track {
+      -webkit-transition: transform 500ms ease-out;
+      -moz-transition: transform 500ms ease-out;
+      -o-transition: transform 500ms ease-out;
+      -ms-transition: transform 500ms ease-out;
+      transition: transform 500ms ease-out;
+      .slick-slide {
+        display:none;
+        float:left;
+        height:100%;
+        min-height:1px;
+        //MILESTONES NEW CSSS
+        .milestone{
+          position: relative;
+          text-align: center;
+          &:before{
+            //MILESTONE DOT
+            //Its a default milestone (Grey Cricle)
+            content:"\f1db";
+            width: 17px;
+            height: 17px;
+            background: white;
+            display: block;
+            margin: 0 auto 10px auto;
+            font: normal normal normal 20px/1 FontAwesome;
+            color: #d5d5d5;
+          }
+          &:after{
+            //Deafult PROGRESS LINE GREY
+            content: '';
+            position: absolute;
+            width:100%;
+            height: 2px;
+            background: #d5d5d5;
+            top: 9px;
+            left: -50%;
+            z-index: -1;
+          }
+          &.stepsCompleted{
+            .percent{
+              &.green{
+                color: #2ecc71
+              }
+              &.red{
+                color: #f16559
+              }
+            }
+          }
+          &.stepsCompleted:before{
+            //Completed dots before the active dot
+            color: #4c8ce4;
+            content: "\f111";
+            font: normal normal normal 20px/1 FontAwesome;
+          }
+          &.stepsCompleted:after{
+            //completed progress line before the active progress line
+            background: #4c8ce4;
+          }
+         /*  &.currentMilestone{
+            .percent{
+              &.green{
+                color: #2ecc71
+              }
+              &.red{
+                color: #f16559
+              }
+            }
+          }
+          &.currentMilestone:before{
+            //Active milestone Double circle dot
+            color: #d5d5d5;
+            content: "\f192";
+            font: normal normal normal 20px/1 FontAwesome;
+          } */
+          &.activeMilestone:before{
+            //Active milestone Double circle dot
+            //color: #4c8ce4;
+            content: "\f192";
+            font: normal normal normal 20px/1 FontAwesome;
+          }
+          .name{
+            font-weight: bold;
+          }
+          .percent{
+            font-weight: bold;
+            border-top: 1px solid #e4e8eb;
+            margin-top: 4.5px;
+            padding: 5px 0 0 0;
+          }
+          /* &.activeMilestone{
+            color: #4c8ce4; ---------------------------->
+          } */
+          &.stepsCompleted{
+            color: #4c8ce4;
+          }
+        }
+        &:hover{
+          cursor: pointer;
+        }
+        //CSS ENDSSS
+
+        //DISPLAY MILESTONE NAME ABOVBE INDICATOR
+        //MILESTONES NEW CSSS
+        .no-milestone{
+          position: relative;
+          text-align: center;
+          &:after{
+            //MILESTONE DOT
+            //Its a default milestone (Grey Cricle)
+            content:"\f1db";
+            width: 17px;
+            height: 17px;
+            background: white;
+            display: block;
+            margin: 0 auto 10px auto;
+            font: normal normal normal 20px/1 FontAwesome;
+            color: #d5d5d5;
+          }
+          &:before{
+            //Deafult PROGRESS LINE GREY
+            content: '';
+            position: absolute;
+            width:100%;
+            height: 2px;
+            background: #d5d5d5;
+            top: 24px;
+            left: -50%;
+            z-index: -1;
+          }
+          &.stepsCompleted{
+            .percent{
+              &.green{
+                color: #2ecc71
+              }
+              &.red{
+                color: #f16559
+              }
+            }
+          }
+          &.stepsCompleted:after{
+            //Completed dots before the active dot
+            color: #4c8ce4;
+            content: "\f111";
+            font: normal normal normal 20px/1 FontAwesome;
+          }
+          &.stepsCompleted:before{
+            //completed progress line before the active progress line
+            background: #4c8ce4;
+          }
+          /* &.currentMilestone{
+            .percent{
+              &.green{
+                color: #2ecc71
+              }
+              &.red{
+                color: #f16559
+              }
+            }
+          }
+          &.currentMilestone:after{
+            //Active milestone Double circle dot
+            color: #d5d5d5;
+            content: "\f192";
+            font: normal normal normal 20px/1 FontAwesome;
+          } */
+          &.activeMilestone:after{
+            //Active milestone Double circle dot
+            //color: #4c8ce4;
+            content: "\f192";
+            font: normal normal normal 20px/1 FontAwesome;
+          }
+          .name{
+            font-weight: normal;
+          }
+          .percent{
+            font-weight: bold;
+            border-top: 1px solid #e4e8eb;
+            margin-top: 4.5px;
+            padding: 5px 0 0 0;
+          }
+          /* &.activeMilestone{
+            color: #4c8ce4; -----------------------------
+          } */
+          &.stepsCompleted{
+            color: #4c8ce4;
+          }
+        }
+        &:hover{
+          cursor: pointer;
+        }
+        //CSS ENDSSS
+        //ENDSSSSSSS milestone-completed
+        &.active-slide .start-text,
+        &.active-slide .end-text,
+        &.current-day-milestone .start-text,
+        &.current-day-milestone .end-text,
+        &.milestone-completed .start-text,
+        &.milestone-completed .end-text,{
+          color: #4c8ce4;
+        }
+      }
+
+    /*   [dir=rtl] .slick-slide {
+        float:right
+      } */
+
+    & > .slick-slide:first-of-type .milestone:after{
+      //REMOVE THE PROGRESS line from the first milestone
+      content: none;
+    }
+
+    & > .slick-slide:first-of-type .no-milestone:before{
+      //REMOVE THE PROGRESS line from the first milestone
+      content: none;
+    }
+
+    }
+  }
+
+}
+.slick-initialized {
+  .slick-list{
+    .slick-track{
+      .slick-slide {
+        display:block;
+      }
+    }
+  }
+}
+
+.milestone-carousel{
+  border-top: solid 0.5px #e4e8eb;
+  border-bottom: solid 0.5px #e4e8eb;
+  padding: 11px 0px 34px 0px;
+  font-size: 12px;
+  color: #bfbfbf;
+}
+
+.no-milestone-carousel{
+  padding: 20px 0px 10px 0px;
+  .slick-slider{
+    .slick-prev, .slick-next {
+      top: -25%;
+    }
+  }
+}
+
+.all-milestone-progress-bar{
+  border-top: solid 0.5px #e4e8eb;
+  border-bottom: solid 0.5px #e4e8eb;
+  padding: 15px 0px 25px;
+  font-size: 12px;
+  text-align: center;
+
+  .milestone-progress{
+    display: inline-block;
+    width: 84%;
+    position: relative;
+    top: 16px;
+  }
+  .progress{
+    background-color: #d5d5d5;
+  }
+
+  .progress-bar{
+    background-color: #4c8ce4;
+  }
+
+  .starting-point, .ending-point{
+    text-align: center;
+    position: relative;
+    left: 50%;
+    top: -31%;
+    display: grid;
+    height: 10vh;
+    z-index: 1;
+  }
+  .starting-point{
+    top: 12.5%;
+    &.started{
+      color: #4c8ce4;
+    }
+    &.inActiveParticiapnt {
+      top: 16.5%;
+    }
+  }
+  .ending-point{
+    left: -50%;
+    top: 8.5%;
+    &.ended{
+      color: #4c8ce4;
+      .end{
+        &:before{
+          width: 17px;
+          height: 17px;
+          color: #4c8ce4;
+          content: "\f111";
+          font: normal normal normal 20px/1 FontAwesome;
+        }
+      }
+    }
+    .color-shade {
+      color:  #b0bac9;
+    }
+  }
+  .start{
+    &:before{
+      width: 17px;
+      height: 17px;
+      color: #4c8ce4;
+      content: "\f111";
+      top: 32%;
+      position: relative;
+      font: normal normal normal 20px/1 FontAwesome;
+    }
+    &.inActive {
+      &:before {
+        color: #d5d5d5;
+      }
+    }
+  }
+  .year {
+    &.inActive {
+      color: #b0bac9;
+    }
+    &.inActiveParticiapnt {
+      width: 42px;
+      padding-top: 8px;
+    }
+  }
+  .end{
+    &:before{
+      //Its a default milestone (Grey Cricle)
+      content:"\f1db";
+      width: 17px;
+      height: 17px;
+      background: white;
+      top: 51%;
+      position: relative;
+      font: normal normal normal 20px/1 FontAwesome;
+      color: #d5d5d5;
+      right: -4px;
+    }
+  }
+  .participant-current-day {
+    padding: 10px 0px 0px 10px;
+    font-size: 15px;
+  }
+}
+.block-height {
+  height: 11vh;
+}
+.participant-current-day {
+  padding: 10px;
+  color: #000;
+  font-size: 14px;
+}
+.span-block {
+  font-size: 16px;
+}
+.color-grey {
+  color: #959fa4 !important;
+}
+.trigger-btn {
+  border: 1px solid #e4e8eb;
+  background: #fff;
+  color: #4c8ce4;
+  padding: 10px 20px;
+  font-size: 14px;
+  margin-right: 15px;
+}
+.btn-primary:focus {
+  outline: none;
+  box-shadow: none;
+}
+.btn-primary:hover {
+  cursor: pointer;
+}
+.btn-primary:not(:disabled):not(.disabled):active {
+  background-color: #fff;
+  border-color: #e4e8eb;
+  color: #4c8ce4;
+  box-shadow: none;
+  cursor: pointer;
+}
+.popover-content {
+  width: 260px;
+}
+
+// css only for safari
+.mac:not(:root:root) {
+  .starting-point {
+    top: 9%;
+  }
+  .ending-point {
+    top: 3%;
+  }
+}
+
+.mac.chrome {
+  .all-milestone-progress-bar {
+    .starting-point {
+      top: 9%;
+    }
+    .ending-point {
+      top: 5%;
+    }
+  }
+}
+.inActiveParticipant {
+  display: inline-block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: #f16559;
+  border-radius: 50%;
+  top: -9px;
+}
+.inActiveText {
+  position: absolute;
+  color: #f16559;
+  top: 418%;
+  &.inActiveParticiapnt{
+    width: 65px;
+  }
+}
+.telehealth-call {
+  .participant-current-day {
+    font-size: 12px;
+  }
+  .milestone-carousel {
+    font-size: 10px;
+  }
+  .all-milestone-progress-bar .milestone-progress {
+    width: 80%;
+  }
+}

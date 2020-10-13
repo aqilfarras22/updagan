@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pages/research-team.vue should has the expected html structure 1`] = `
+<div>
+  <mainheader-stub />
+   
+  <sidemenu-stub
+    studydata="[object Object]"
+  />
+   
+  <div
+    class="has-sidemenu has-header"
+  >
+    <!---->
+     
+    <h1
+      studydata="[object Object]"
+      studyid="111"
+    >
+      render
+    </h1>
+  </div>
+</div>
+`;
